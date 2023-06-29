@@ -88,10 +88,10 @@ export default function Home() {
         <Link href="/news">
           <h3>各種お申し込み・お問い合わせ</h3>
         </Link>
-        <Link href="/map">
+        <Link href="/access">
           <h3>お車でお越しの方</h3>
         </Link>
-        <Link href="/map">
+        <Link href="/access">
           <h3>電車でお越しの方</h3>
         </Link>
           </div>
