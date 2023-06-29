@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    margin: 9rem auto;
+    padding: 1rem 12rem;
+
+}
+.slug {
+    width: 90%;
+    margin: 6rem auto ;
+    p {
+        font-size: 0,8rem;
+        margin-top: 3rem;
+    }
+}
+.title {
+    width: 100%;
+    padding: 3rem 0;
+    border-bottom: solid 1px;
+    h2 {
+        font-size: 1.6rem;
+        letter-spacing: 0.3rem;
+    }
+}
+.body {
+    margin-top: 3rem;
+    margin-bottom: 16rem;
+    padding: 3rem 0;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    line-height: 0.01rem;
+}
+
+.backBtn {
+    padding: 1.5rem 3rem;
+    width: 20%;
+    border-bottom: solid 1px;
+    font-size: 0.8rem;
+    letter-spacing: 0.3rem;
+
+}

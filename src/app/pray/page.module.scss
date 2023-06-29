@@ -1,0 +1,73 @@
+.prayTop {
+    width: 100%;
+    margin: 3rem auto;
+    h3 {
+        margin-top: 4rem;
+        font-size: 1.6rem;
+        letter-spacing: 0.1rem;
+        line-height: 3rem;
+    }
+}
+
+.prayEfficacy {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem auto 9rem auto;
+
+    P {
+        font-size: 1.6rem;
+        font-weight: 500;
+        letter-spacing: 1rem;
+        writing-mode: vertical-rl;
+    }
+}
+.prayTopCaption {
+    text-align: center;
+}
+
+.itemBody {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem auto 3rem auto;
+    p {
+        margin-bottom: 1rem;
+        letter-spacing: 0.3rem;
+    }
+}
+.itemBodyLeft {
+    width: 30%;
+    border-right: solid 1px;
+    margin-right: 6rem;
+}
+
+.title {
+    width: 100%;
+    margin-top: 6rem;
+    padding: 3rem 1rem;
+    border-bottom: solid 1px;
+    text-align: center;
+    h2 {
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+    }
+}
+
+.hire {
+    width: 50%;
+    margin: 3rem auto;
+    p {
+        text-align: center;
+        margin: 3rem 0;
+    }
+}
+.bottomHire {
+    width: 100%;
+    margin: 6rem auto;
+    p {
+        text-align: center;
+        margin: 3rem 0;
+    }
+}

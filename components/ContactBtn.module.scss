@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    width: 40%;
+    height: 8rem;
+    margin: 6rem 0;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    p {
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+    }
+}

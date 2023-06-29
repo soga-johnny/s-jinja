@@ -1,0 +1,31 @@
+.contents {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.item {
+    margin-bottom: 9rem;
+    width: 250px;
+}
+.caption {
+    width: 100%;
+    p {
+        font-size: 0.9rem;
+    }
+}
+.title {
+    margin-bottom: 1rem;
+    padding: 1rem 2rem 1rem 0;
+    border-bottom: solid 1px;
+    h3 {
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+    }
+}
