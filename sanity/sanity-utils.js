@@ -10,7 +10,7 @@ export async function getPosts() {
     //   _createdAt,
       title,
       "slug": slug.current,
-      "image": image.asset->url,
+      // "image": image.asset->url,
       publishedAt,
       body
     }`,
@@ -24,7 +24,7 @@ export async function getPost( slug ) {
       //   _createdAt,
         title,
         "slug": slug.current,
-        "image": image.asset->url,
+        // "image": image.asset->url,
         publishedAt,
         body
       }`,

@@ -6,6 +6,12 @@
   padding: 6rem;
   min-height: 100vh;
 }
+.spline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 
 .description {
   display: inherit;
