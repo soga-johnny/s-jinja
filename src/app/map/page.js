@@ -15,8 +15,8 @@ export default function Map (){
         <Image 
         src="/maps/map.png"
         alt="map"
-        width={440}
-        height={700}
+        width={409}
+        height={650}
         className={styles.visual}
         />
         <div className={styles.description}>
@@ -63,8 +63,8 @@ export default function Map (){
                 <div className={styles.imageCover}>
                 <Image
                 src="/maps/map1.jpg"
-                width={400}
-                height={400}
+                width={350}
+                height={350}
                 alt="shijonawateJinjaMap"
                  />
                 </div>
@@ -83,8 +83,8 @@ export default function Map (){
                 <div className={styles.imageCover}>
                 <Image
                 src="/maps/map2.jpg"
-                width={400}
-                height={400}
+                width={350}
+                height={350}
                 alt="shijonawateJinjaMap"
                  />
                 </div>
@@ -107,8 +107,8 @@ export default function Map (){
                 <div className={styles.imageCover}>
                 <Image
                 src="/maps/map3.jpg"
-                width={400}
-                height={400}
+                width={350}
+                height={350}
                 alt="shijonawateJinjaMap"
                  />
                 </div>
@@ -126,8 +126,8 @@ export default function Map (){
                 <div className={styles.imageCover}>
                 <Image
                 src="/maps/map4.jpg"
-                width={400}
-                height={400}
+                width={350}
+                height={350}
                 alt="shijonawateJinjaMap"
                  />
                 </div>
@@ -149,8 +149,8 @@ export default function Map (){
                 <div className={styles.imageCover}>
                 <Image
                 src="/maps/map5.jpg"
-                width={400}
-                height={400}
+                width={350}
+                height={350}
                 alt="shijonawateJinjaMap"
                  />
                 </div>
@@ -172,8 +172,8 @@ export default function Map (){
                 <div className={styles.imageCover}>
                 <Image
                 src="/maps/map6.jpg"
-                width={400}
-                height={400}
+                width={350}
+                height={350}
                 alt="shijonawateJinjaMap"
                  />
                 </div>
