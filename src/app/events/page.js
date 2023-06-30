@@ -2,8 +2,8 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import TopVisual from "../../../components/TopVisual";
 import styles from "./page.module.scss"
-import Image from "next/image";
-import SubtitleVisual from "../../../components/SubtitleVisual";
+// import Image from "next/image";
+// import SubtitleVisual from "../../../components/SubtitleVisual";
 
 export default function Events (){
 
@@ -17,11 +17,11 @@ export default function Events (){
         description=
         "神社では年間を通し様々なお祭りが行われております。毎月行われるものや、その軽重によって大祭、中祭、小祭、諸祭に分けられます。大祭には例祭や神社のご鎮座に関わるお祭りが、中祭は歳旦祭、紀元祭、天長祭、昭和祭、神嘗奉祝祭など皇室と関わりの深いお祭りがあげられます。当社の年中行事をご紹介申し上げます。"
         />
-        <SubtitleVisual
+        {/* <SubtitleVisual
         title="月次祭"
         description="サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト"
         visual="/subtitles/subtitle2.jpg"
-        />
+        /> */}
         
         <section className={styles.main}>
 

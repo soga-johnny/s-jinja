@@ -3,7 +3,7 @@ import Footer from "../../../components/Footer";
 import TopVisual from "../../../components/TopVisual";
 import styles from "./page.module.scss"
 import ContactBtn from "../../../components/ContactBtn";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function Pray (){
 
@@ -14,8 +14,18 @@ export default function Pray (){
         <TopVisual 
         visual="/visuals/pray.jpg"
         title="ご祈祷のご案内"
-        description=
-        "　説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル"
+        description="忠孝両全の武将としてその御神徳は
+        「なにわ七幸めぐり」で心願成就の御利益と言われるほど、幅広い御神徳がある。
+        また、御祭神の姓である「クスノキ」は、古来より防虫・虫除けに使用されていた。
+         現代ではそれが転じて厄除・災難除けの楠公さんと称され祈願者も多い。
+        さらに、本殿西側の御妣神社には、正行公の御母堂久子様を祀り、賢母の教えを慕われ、
+        安産祈願・初宮詣・七五三など子育ての神として崇敬を集める。"
+        // description="忠孝両全の武将としてその御神徳は必勝祈願・武運長久・家内安全をはじめ、
+        // 「なにわ七幸めぐり」で心願成就の御利益と言われるほど、幅広い御神徳がある。
+        // また、御祭神の姓である「クスノキ」は、古来より防虫・虫除けに使用されていた。
+        // 現代ではそれが転じて厄除・災難除けの楠公さんと称され祈願者も多い。
+        // さらに、本殿西側の御妣神社には、正行公の御母堂久子様を祀り、賢母の教えを慕われ、
+        // 安産祈願・初宮詣・七五三など子育ての神として崇敬を集める。"
         />
 
         <section className={styles.prayTop}>

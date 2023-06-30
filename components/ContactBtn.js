@@ -7,7 +7,7 @@ const ContactBtn = ( props ) => (
 
     <div className={styles.container}>
     <button className={styles.btn}>
-        <Link href="/">
+        <Link href="/contact">
             <p>{ props.text }</p>
         </Link>
     </button>

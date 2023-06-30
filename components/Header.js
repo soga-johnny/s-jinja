@@ -78,7 +78,7 @@ const Header = () => (
                 <summary>
                     <h2>ご案内<br/>お問い合わせ</h2>
                 </summary>
-                    <Link href="/news/#news"
+                    <Link href="/news"
                     className={styles.item}>
                         <h3>お知らせ</h3>
                     </Link>
@@ -86,7 +86,7 @@ const Header = () => (
                     className={styles.item}>
                         <h3>常駐のご案内</h3>
                     </Link>
-                    <Link href="/news"
+                    <Link href="/contact"
                     className={styles.item}>
                         <h3 className={styles.bottomItem}>
                             お問い合わせ</h3>
