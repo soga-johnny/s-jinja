@@ -1,9 +1,17 @@
 import Image from 'next/image';
 import styles from './TopVisual.module.scss'
+import { motion } from 'framer-motion'
 
 
 const TopVisual = ( props ) => (
-
+    
+    <div>
+    <motion.div
+    initial={{ opacity: 0 }} 
+    animate={{ opacity: 1 }} 
+    exit={{ opacity: 0 }}
+    transition = {{ duration: 1, ease: 'easeInOut' }} 
+    >
     <div className={styles.container}>
     <div className={styles.leftContent}>
         <div className={styles.visualCover}>
@@ -28,6 +36,8 @@ const TopVisual = ( props ) => (
         <h1>四條畷神社</h1>
 
     </div>
+    </div>
+    </motion.div>
 
     <Image 
         src={ "/backAccentPC.png" } width={1370} height={190}
@@ -39,7 +49,7 @@ const TopVisual = ( props ) => (
         alt="backAccent"
         className={styles.backAccentMobile}
         />
-</div>
+    </div>
 )
 
 export default TopVisual;

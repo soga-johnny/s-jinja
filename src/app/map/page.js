@@ -1,8 +1,11 @@
+"use client"
+
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
-import TopVisual from "../../../components/TopVisual";
 import styles from "./page.module.scss"
 import Image from "next/image";
+import { motion } from 'framer-motion'
+
 
 export default function Map (){
 
@@ -10,8 +13,14 @@ export default function Map (){
 
     <div>
         <Header />
-    <div className={styles.container}>
+
     <div className={styles.content}>
+    <motion.div className={styles.container}
+    initial={{ opacity: 0 }} 
+    animate={{ opacity: 1 }} 
+    exit={{ opacity: 0 }}
+    transition = {{ duration: 1, ease: 'easeInOut' }} 
+    >
         <Image 
         src="/maps/map.png"
         alt="map"
@@ -34,7 +43,8 @@ export default function Map (){
         <div className={styles.rightContent}>
         <h2>境内のご案内</h2>
     </div>
-    </div>
+    </motion.div>
+    {/* </div> */}
 
     <div className={styles.nameLogo}>
         <div className={styles.scroll}>
@@ -54,6 +64,7 @@ export default function Map (){
         alt="backAccent"
         className={styles.backAccentMobile}
         />
+
 </div>
         
         <section className={styles.contents}>

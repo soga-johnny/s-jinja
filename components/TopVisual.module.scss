@@ -9,6 +9,7 @@
         writing-mode: vertical-rl;
     }
     p {
+        margin: 0 auto;
         font-size: 1rem;
         letter-spacing: 0.2rem;
         writing-mode: vertical-rl;
@@ -33,7 +34,7 @@
 .description {
     position: absolute;
     top: 48%;
-    right: 15%;
+    right: 10%;
     height: 35%;
     letter-spacing: 0.15rem;
     line-height: 3rem;

@@ -6,6 +6,7 @@ import styles from "./page.module.scss"
 import Image from "next/image";
 import SubtitleVisual from "../../../components/SubtitleVisual";
 import Map from "../../../components/Map";
+import { motion } from 'framer-motion'
 
 export default async function About (){
 
@@ -13,6 +14,13 @@ export default async function About (){
 
     <div>
     <Header />
+    <div>
+    <motion.div
+    initial={{ opacity: 0 }} 
+    animate={{ opacity: 1 }} 
+    exit={{ opacity: 0 }}
+    transition = {{ duration: 1, ease: 'easeInOut' }} 
+    >
     <div className={styles.container}>
       <div className={styles.content}>
         <Map 
@@ -31,6 +39,9 @@ export default async function About (){
         <h1>四條畷神社</h1>
 
     </div>
+    </div>
+    </motion.div>
+
 
     <Image 
         src={ "/backAccentPC.png" } width={1370} height={190}

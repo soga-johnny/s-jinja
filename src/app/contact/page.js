@@ -3,6 +3,9 @@
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import styles from "./page.module.scss"
+import Image from "next/image";
+import { motion } from 'framer-motion'
+
 
 export default function Contact (){
 
@@ -10,7 +13,9 @@ export default function Contact (){
         event.preventDefault();
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "process.env.NEXT_PUBLIC_WEB3_FORM_ACCESS_KEY");
+        // const config = process.env.NEXT_PUBLIC_WEB3_FORM_ACCESS_KEY
+
+        formData.append("access_key", "899fb137-f184-4902-b707-79d453ab5510");
 
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
@@ -32,8 +37,15 @@ export default function Contact (){
 
     return (
 
+    <div>
     <div className={styles.box}>
     <Header />     
+    <motion.div
+    initial={{ opacity: 0 }} 
+    animate={{ opacity: 1 }} 
+    exit={{ opacity: 0 }}
+    transition = {{ duration: 1, ease: 'easeInOut' }} 
+    >
     <div className={styles.container}>
         
     <section className={styles.main}>
@@ -92,6 +104,18 @@ export default function Contact (){
 
     </section>
     </div>
+    </motion.div>
+    </div>
+    <Image 
+        src={ "/backAccentPC.png" } width={1370} height={190}
+        alt="backAccent"
+        className={styles.backAccentPC}
+        />
+    <Image 
+        src={ "/backAccentMobile.png" } width={1370} height={190}
+        alt="backAccent"
+        className={styles.backAccentMobile}
+        />
     <Footer />
     </div>
     )

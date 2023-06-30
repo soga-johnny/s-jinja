@@ -1,22 +1,32 @@
+"use client"
+
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import TopVisual from "../../../components/TopVisual";
 import styles from "./page.module.scss"
 import Image from "next/image";
 import SubtitleVisual from "../../../components/SubtitleVisual";
+// import {  motion } from 'framer-motion'
 
 export default function About (){
 
     return (
 
+        // <AnimatePresence initial={false} mode="wait">
         <div className={styles.container}>
         <Header />
+        {/* <motion.div
+    initial={{ opacity: 0 }} 
+    animate={{ opacity: 1 }} 
+    exit={{ opacity: 0 }}    
+ > */}
         <TopVisual 
         visual="/visuals/about.jpg"
         title="四條畷神社について"
         description=
         "四條畷市は大阪府の東北部に位置し、市の約三分の二が北生駒山地でしめられている緑豊かな場所であり、西の軽井沢と称される。当社は飯森山の山麓に鎮座し、忠孝両全の名将楠木正行公をはじめ二十五柱の大神様をお祀りしている。"
         />
+        {/* </motion.div> */}
         <SubtitleVisual
         title="御由緒"
         description="サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト"
@@ -134,5 +144,6 @@ export default function About (){
 
         <Footer />
         </div>
+        // </AnimatePresence>
     )
 }
