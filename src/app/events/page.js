@@ -76,12 +76,12 @@ export default function Events (){
                     <div className={styles.itemBodyRight}>
                         <p>月例祭</p>
                         <p>厄除大祭</p>
-                        <p>紀元節ならびに</p>
+                        <p>紀元祭並に</p>
                         <p>例大祭前日祭</p>
                         <p>例大祭</p>
                         <p>月次祭</p>
                         <p>祈年祭</p>
-                        <p>天長節</p>
+                        <p>天長祭</p>
                         <p>楠天神社月例祭</p>
 
                     </div>
@@ -181,7 +181,6 @@ export default function Events (){
                     <div className={styles.itemBodyRight}>
                         <p>月例祭</p>
                         <p>月次祭</p>
-                        <p>祈年祭</p>
                         <p>楠天神社月例祭</p>
                         <p>夏越大祓式</p>
 
@@ -225,7 +224,7 @@ export default function Events (){
                     </div>
                     <div className={styles.itemBodyRight}>
                         <p>月例祭</p>
-                        <p>月次祭ならびに</p>
+                        <p>月次祭並に</p>
                         <p>終戦記念祭</p>
                         <p>楠天神社月例祭</p>
 
@@ -304,7 +303,7 @@ export default function Events (){
                     </div>
                     <div className={styles.itemBodyRight}>
                         <p>月例祭</p>
-                        <p>明治節</p>
+                        <p>明治祭</p>
                         <p>月次祭</p>
                         <p>新嘗祭</p>
                         <p>楠天神社月例祭</p>

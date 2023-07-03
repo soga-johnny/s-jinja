@@ -20,7 +20,7 @@ export default async function News (){
         visual="/visuals/news.jpg"
         title="ご案内・お問い合わせ"
         description=
-        "　説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル"
+        ""
         />
 
         <section className={styles.contact}>
@@ -59,6 +59,52 @@ export default async function News (){
                 <h2>常駐のご案内</h2>
             </div>
             <p>ダミーテキスト<br/>ダミーテキスト<br/>ダミーテキスト<br/></p>
+        </section>
+
+        <section className={styles.hire} >
+            <div className={styles.title}>
+                <h2>常駐小楠公を偲ぶ会<br/>会員募集のご案内</h2>
+            </div>
+            <p>楠正行公の遺徳を尊び忠孝の精神を日本人の心の柱として
+                毎月１２日の月命日に９時半より墓前にて詩吟唱歌等を合唱して供養
+                奉る会である。<br/><br/>
+                活動<br/>
+                毎月１２日 午前９時３０分～<br/>
+                毎週水曜・土曜 午前７時３０分～<br/>
+                小楠公御墓所清掃奉仕（雨天中止）<br/><br/>
+                詳細については、四條畷神社社務所までお問い合わせ下さい。</p>
+        </section>
+
+        <section className={styles.hire} >
+            <div className={styles.title}>
+                <h2>神社ボランティア<br/>募集のご案内</h2>
+            </div>
+            <p>ボランティアの対価は無償とする。又、月会費は徴収しない。
+                地元又は地域として文化財を守ることを念頭に活動を行う。
+                活動を通じて健康増進を計る。
+                活動を通じて友和を計る。<br/>
+                反社会的行動や友和を乱す行動には退会を勧告する。<br/><br/>
+                活動<br/>
+                定期活動：第一土曜日・第一土曜日<br/>
+                午前９時３０分～１１時３０分<br/>
+                (第2・第4土曜は、それぞれ第1・第3土曜の予備日とする)<br/><br/>
+                また、その他の曜日、時間はそれぞれの自由活動とする。<br/>        
+                詳細については、四條畷神社社務所までお問い合わせ下さい。</p>
+        </section>
+
+        <section className={styles.hire} >
+            <div className={styles.title}>
+                <h2>四條畷<br/>楠正行の会</h2>
+            </div>
+            <p>郷土、四條畷ゆかりの歴史上の人物、四條畷神社に祀られる楠正行に
+                ついて学び、そして顕彰し、次代を担う子ども達等を通じ、後世に長く広く
+                語り継ぐことを目的に、活動をしています。<br/><br/>
+                活動<br/>
+                例会(毎月第２火曜日 午後１時３０分～午後３時)<br/>
+                <Link href="http://nawate-kyobun.jp/masatsura.html"
+                className={styles.externalLink}>
+                    四條畷市立教育文化センター</Link><br/><br/>
+                詳細については、四條畷神社社務所までお問い合わせ下さい。</p>
         </section>
 
         <Footer />

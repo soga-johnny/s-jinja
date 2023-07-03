@@ -1,0 +1,96 @@
+// @import '../styles/variable';
+
+.menu {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+//   border: 1px solid #414141;
+  padding: 3px 7px ;
+  width: 50px;
+  position: fixed;
+  top: 1.5rem;
+  right: 1rem;
+  z-index: 15;
+  span {
+    display: block;
+    margin-bottom: 6px;
+    background: #414141;
+    height: 1px;
+  }
+
+  .is-open {
+    padding: 3rem;
+
+    span:nth-child(1) {
+      transform: rotate(32deg);
+      transform-origin: left top;
+    }
+
+    span:nth-child(2) {
+      opacity: 0
+    }
+
+    span:nth-child(3) {
+      transform: rotate(-32deg);
+      transform-origin: left bottom;
+    }
+  }
+
+}
+
+.spNav {
+    padding: 1.7rem 1.5rem;
+    position: fixed;
+    z-index: 10;
+    background: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;s
+    // text-align: center;
+    h2 {
+        // text-align: center;
+        margin-bottom: 3rem;
+        letter-spacing: 0.5rem;
+    }
+  }
+  
+
+.item {
+//   display: flex;
+//   justify-content: center;
+  width: 70%;
+  height: fit-content;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  text-align: center;
+  border-bottom: solid 1px;
+
+//   p {
+//     margin: 0.5rem 0;
+//     font-size: 0.9rem;
+    
+//   }
+h3 {
+    letter-spacing: 0.3rem;
+}
+
+  & + & {
+    margin-top: 1rem;
+  }
+}
+// .navTitle {
+//     width: 30%;
+//     // height: fit-content;
+//     margin: 0 3rem 0 0;
+//     // margin-left: 1rem;
+//     padding: 0 1rem;
+//     border-right: solid 1px;
+//     font-size: 0.9rem;
+//     // line-height: 2rem;
+//     letter-spacing: 0.4rem;
+//     // writing-mode: vertical-rl;
+// }
+

@@ -29,3 +29,33 @@
         letter-spacing: 0.1rem;
     }
 }
+
+// --------------------------------------
+
+@media screen and (max-width:767px) {
+
+    .contents {
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .items {
+        width: 100%;
+        flex-flow: column;
+        margin-bottom: 0;
+    }
+    
+    .item {
+        margin: 0 0 6rem 0;
+        width: 100%;
+    }
+    .imageCover {
+        width: 100%;
+    }
+    .title {
+        h3 {
+            font-size: 0.9rem;
+        }
+    }
+
+  }

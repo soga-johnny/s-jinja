@@ -1,11 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./Footer.module.scss"
+import ContactBtn from "./ContactBtn";
 
 
 
 const Footer = () => (
 <footer className={styles.footer}>
+    <ContactBtn 
+    text="各種お申し込み・お問い合わせはこちら"
+    className={styles.btn} />
     <div className={styles.container}>
         <div className={styles.navi}>
             <ul>

@@ -19,7 +19,7 @@ export default function Map (){
     initial={{ opacity: 0 }} 
     animate={{ opacity: 1 }} 
     exit={{ opacity: 0 }}
-    transition = {{ duration: 1, ease: 'easeInOut' }} 
+    transition = {{ duration: 1.5, ease: 'easeInOut' }} 
     >
         <Image 
         src="/maps/map.png"
@@ -35,9 +35,9 @@ export default function Map (){
             <p>❶ 御本殿</p>
             </div>
             <div className={styles.descriptionItem}>
-            <p>❻ 有源招魂社</p>
+            <p>❻ 小楠公御墓所</p>
             <p>❺ 和田賢秀御墓所</p>
-            <p>❹ 小楠公御墓所</p>
+            <p>❹ 有源招魂社</p>
             </div>
         </div>
         <div className={styles.rightContent}>
@@ -85,7 +85,7 @@ export default function Map (){
                     </div>
                         <p>
                         現在の本殿は、明治23年創建当初のまま残っている。拝殿は鎮座90年を記念し、昭和56年に改築された。
-                        本殿正面の鳥居は平成2年の御鎮座100年に際し、伊勢神宮から下賜されたもの
+                        本殿正面の鳥居は平成2年の御鎮座100年に際し、伊勢神宮から下賜されたもの。
                         </p>
                 </div>
             </div>
@@ -167,7 +167,7 @@ export default function Map (){
                 </div>
                 <div className={styles.caption}>
                     <div className={styles.title}>
-                        <h3>小楠公（楠正行公）御墓所</h3>
+                        <h3>小楠公(楠正行公)御墓所</h3>
                     </div>
                         <p>
                         参道より真っすぐ西へ約1㎞ほど進んだ突き当りにある。
@@ -190,7 +190,7 @@ export default function Map (){
                 </div>
                 <div className={styles.caption}>
                     <div className={styles.title}>
-                        <h3>和田賢秀殉節地</h3>
+                        <h3>和田賢秀御墓所</h3>
                     </div>
                         <p>
                         第一鳥居の北約200ｍのところにある。

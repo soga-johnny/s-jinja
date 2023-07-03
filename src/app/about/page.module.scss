@@ -23,6 +23,11 @@
         line-height: 1.8rem;
     }
 }
+.imageCover {
+    width: 250px;
+    height: 100%;
+    // height: 250px;
+}
 .title {
     width: 50%;
     padding: 1rem 2rem 1rem 0;
@@ -32,3 +37,41 @@
         letter-spacing: 0.3rem;
     }
 }
+
+// --------------------------------------
+
+@media screen and (max-width:767px) {
+    .main {
+        width: 70%;
+        // padding: 0 1rem;
+        // margin: 0 auto;
+    }
+    .item {
+        flex-flow: column;
+        // justify-content: center;
+        flex-direction: column-reverse;
+        margin-bottom: 6rem;
+    }
+    .caption {
+        width: 100%;
+        h4 {
+            font-size: 1rem;
+        }
+    }
+    .imageCover {
+        width: 100%;
+        height: auto;
+    }
+    .title {
+        width: 100%;
+    }
+    .imageCover {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 3rem 0;
+    }
+    .riverse {
+        flex-direction: row-reverse;
+    }
+  }

@@ -8,26 +8,38 @@
         line-height: 3rem;
     }
 }
+.prayEfficacyBox {
+    width: 50%;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin: 3rem auto 9rem auto;
+    padding: 3rem 0;
 
+}
 .prayEfficacy {
-    width: 40%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    margin: 3rem auto 9rem auto;
+    padding: 3rem 0 ;
+
 
     P {
-        font-size: 1.6rem;
-        font-weight: 500;
+        font-size: 1.4rem;
         letter-spacing: 1rem;
         writing-mode: vertical-rl;
     }
 }
+
 .prayTopCaption {
+    width: 50%;
     text-align: center;
+    margin: 0 auto;
+    letter-spacing: 0.05rem;
+    line-height: 2rem;
 }
 
 .itemBody {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,3 +83,77 @@
         margin: 3rem 0;
     }
 }
+
+// --------------------------
+
+@media screen and (max-width:767px) {
+    .prayTop {
+        width: 70%;
+        // margin-top: 12rem;
+        margin-bottom: 6rem;
+        p {
+            font-size: 0.9rem;
+        }
+    }
+    .prayEfficacyBox {
+        width: 80%;
+        margin: 3rem auto 9rem auto;
+        padding: 0;
+    
+    }
+    .prayEfficacy {
+        margin: 0 auto;
+        P {
+            font-size: 1.2rem;
+        }
+    }
+    .prayTopCaption {
+        width: 100%;
+    }
+    .itemBody {
+        width: 100%;
+        margin: 6rem auto 1rem auto;
+        p {
+            margin-bottom: 1rem;
+            letter-spacing: 0.05rem;
+        }
+    }
+    .itemBodyLeft {
+        width: 28%;
+        border-right: solid 1px;
+        margin-right: 1rem;
+    }
+
+    .hire {
+        width: 70%;
+        // margin-top: 12rem;
+        margin-bottom: 6rem;
+        p {
+            font-size: 0.9rem;
+        }
+    }
+    .title {
+        margin-top: 6rem;
+        padding: 1.5rem 0;
+        h2 {
+            font-size: 1.4rem;
+            letter-spacing: 0.3rem;
+        }
+    }
+    .bottomHire {
+        display: none;
+    }
+    .itemConteiner {
+        flex-flow: column;
+        p {
+            font-size: 0.9rem;
+        }
+    }
+    
+    .item {
+        margin: 0 0 6rem 0;
+        width: 100%;
+    }
+  
+
+  }

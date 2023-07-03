@@ -36,3 +36,30 @@
 .itemBodyLeft {
     width: 30%;
 }
+
+// --------------------------------------
+
+@media screen and (max-width:767px) {
+    .main {
+        width: 70%;
+        // margin-top: 12rem;
+        margin-bottom: 6rem;
+    }
+    .itemConteiner {
+        flex-flow: column;
+        p {
+            font-size: 0.9rem;
+        }
+    }
+    
+    .item {
+        margin: 0 0 6rem 0;
+        width: 100%;
+    }
+    .title {
+        h3 {
+            font-size: 1.6rem;
+        }
+    }
+
+  }

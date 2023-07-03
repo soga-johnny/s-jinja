@@ -22,6 +22,8 @@
     }
 }
 .body {
+    width: 100%;
+    height: fit-content;
     margin-top: 3rem;
     margin-bottom: 16rem;
     padding: 3rem 0;
@@ -37,4 +39,50 @@
     font-size: 0.8rem;
     letter-spacing: 0.3rem;
 
+}
+
+// --------------------------------------
+
+@media screen and (max-width:767px) {
+    .container {
+        width: 80%;
+        background-color: coral;
+        padding: 1rem 0;
+
+    }
+    .slug {
+        width: 90%;
+        margin: 6rem auto ;
+        background-color: aqua;
+        p {
+            font-size: 0,8rem;
+            margin-top: 3rem;
+        }
+    }
+    .title {
+        width: 100%;
+        padding: 3rem 0;
+        border-bottom: solid 1px;
+        h2 {
+            font-size: 1.2rem;
+            letter-spacing: 0.3rem;
+        }
+    }
+    .body {
+        height: fit-content;
+        margin-top: 3rem;
+        margin-bottom: 6rem;
+        padding: 3rem 0;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        line-height: 0.01rem;
+    }
+    .backBtn {
+        padding: 1.5rem 3rem;
+        width: 30%;
+        border-bottom: solid 1px;
+        font-size: 0.9rem;
+        letter-spacing: 0.3rem;
+    
+    }
 }

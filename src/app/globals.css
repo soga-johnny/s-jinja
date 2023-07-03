@@ -61,6 +61,8 @@
 html,
 body {
     font-family: var(--font-shippori);
+    /* font-weight: 600; */
+
 
 }
 
@@ -78,3 +80,13 @@ a {
     color-scheme: dark;
   }
 } */
+
+@media screen and (max-width:767px) {
+  html,
+body {
+  /* font-family: var(--font-shippori); */
+  /* font-weight: 800; */
+
+
+}
+}

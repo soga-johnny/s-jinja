@@ -68,3 +68,76 @@
     z-index: -1;
     opacity: 0;
 }
+
+
+// --------------------------------------
+
+@media screen and (max-width:767px) {
+    .box {
+        width: 100%;
+        margin-top: 12rem;
+    }
+    
+    .container {
+        width: 80%;
+
+        margin-top: 3rem;
+        // padding: 0 1rem;
+        // margin: 0 auto;
+        margin-bottom: 3rem;
+
+        h1 {
+            // height: 100%;
+            font-size: 1.6rem;
+        }
+    }
+    .nameLogo {
+        opacity: 0;
+    }
+
+    .backAccentPC {
+        opacity: 0;
+    }
+    .backAccentMobile {
+        top: 55%;
+        left: 0;
+        width: 100%;
+        opacity: 1;
+        
+    }
+
+    // -
+
+    .contents {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .items {
+        width: 100%;
+        flex-flow: column;
+    }
+    
+    .item {
+        margin: 0 0 9rem 0;
+        width: 100%;
+    }
+    .imageCover {
+        width: 100%;
+    }
+    .title {
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+    .btnBlock {
+        width: 100%;
+        button {
+            width: 100%;
+            margin: 0 auto;
+            padding: 1.5rem 0;
+            letter-spacing: 1rem;
+      }
+    }
+
+  }

@@ -7,6 +7,8 @@ import Image from "next/image";
 import SubtitleVisual from "../../../components/SubtitleVisual";
 import Map from "../../../components/Map";
 import { motion } from 'framer-motion'
+import Link from "next/link";
+
 
 export default async function About (){
 
@@ -19,13 +21,23 @@ export default async function About (){
     initial={{ opacity: 0 }} 
     animate={{ opacity: 1 }} 
     exit={{ opacity: 0 }}
-    transition = {{ duration: 1, ease: 'easeInOut' }} 
+    transition = {{ duration: 1.5, ease: 'easeInOut' }} 
     >
     <div className={styles.container}>
       <div className={styles.content}>
+        <div className={styles.visualCover}>
         <Map 
-        className={styles.visual}
-        />
+        className={styles.visual}/>
+        </div>
+        <div className={styles.address}>
+            <p>〒 575-0021<br/>
+            大阪府四條畷市南野2丁目18-1</p>
+            <button>
+            <Link href="https://goo.gl/maps/zF5gbcBW7D4K9PgM8">
+                Google map で開く
+            </Link>
+            </button>
+        </div>
 
         <div className={styles.rightContent}>
         <h2>交通アクセス</h2>
