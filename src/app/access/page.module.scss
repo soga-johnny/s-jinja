@@ -98,32 +98,27 @@
     margin: 0 auto;
 }
 // ----------
-.item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 9rem;
-}
-.caption {
-    width: 60%;
-    h4 {
-        margin-top: 2rem;
-        font-size: 1.2rem;
-    }
-    p {
-        margin: 1.5rem 0 3rem 0;
-        font-size: 0.9rem;
-        letter-spacing: 0.05rem;
-        line-height: 1.8rem;
-    }
-}
 .title {
-    width: 50%;
-    padding: 1rem 2rem 1rem 0;
+    width: 100%;
+    margin-top: 6rem;
+    padding: 3rem 1rem;
     border-bottom: solid 1px;
-    h3 {
-        font-size: 1.2rem;
-        letter-spacing: 0.15rem;
+    text-align: center;
+    h2 {
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
     }
+}
+.hire {
+    width: 50%;
+    margin: 0 auto;
+    p {
+        text-align: center;
+        margin: 3rem 0;
+    }
+}
+.hireImage {
+    margin: 1.5rem auto;
 }
 
 
@@ -215,5 +210,21 @@
         opacity: 1;
     }
 
-
+    .title {
+        padding: 3rem 0 1.5rem 0;
+        h2 {
+            font-size: 1.2rem;
+        }
+    }
+    .hire {
+        width: 70%;
+        margin: 0 auto;
+        p {
+            text-align: center;
+            margin: 3rem 0;
+            font-size: 0.9rem;
+            letter-spacing: 0.05rem;
+            line-height: 1.5rem;
+        }
+    }
   }

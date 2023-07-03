@@ -6,6 +6,7 @@ import TopVisual from "../../../components/TopVisual";
 import styles from "./page.module.scss"
 import ContactBtn from "../../../components/ContactBtn";
 // import Link from "next/link";
+import Image from "next/image";
 
 export default function Pray (){
 
@@ -68,6 +69,20 @@ export default function Pray (){
             </div>
         </section>
         <ContactBtn text="お申し込み・お問い合わせ" />
+
+        <section className={styles.hire} >
+            <div className={styles.title}>
+                <h2>厄払い</h2>
+            </div>
+            <Image src={"/pray/prayImage1.jpg"}  width={300} height={450}
+                alt="shonankoInstituition"
+                className={styles.hireImage} />
+            <p>ダミーテキストダミーテキストダミーテキスト
+            ダミーテキストダミーテキストダミーテキストダミーテキスト
+            ダミーテキストダミーテキストダミーテキストダミーテキスト
+            ダミーテキストダミーテキスト
+            </p>
+        </section>
 
         
         <section className={styles.hire}>

@@ -22,7 +22,7 @@ export default function About (){
         />
         <SubtitleVisual
         title="御由緒"
-        description=""
+        description="　"
         visual="/subtitles/subtitle1.jpg"
         />
         

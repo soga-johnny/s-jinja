@@ -7,6 +7,7 @@ import styles from "./page.module.scss"
 import ContactBtn from "../../../components/ContactBtn";
 import { getPosts } from "../../../sanity/sanity-utils";
 import Link from "next/link";
+import Image from "next/image";
 
 export default async function News (){
 
@@ -20,7 +21,7 @@ export default async function News (){
         visual="/visuals/news.jpg"
         title="ご案内・お問い合わせ"
         description=
-        ""
+        "　"
         />
 
         <section className={styles.contact}>
@@ -65,6 +66,9 @@ export default async function News (){
             <div className={styles.title}>
                 <h2>常駐小楠公を偲ぶ会<br/>会員募集のご案内</h2>
             </div>
+            <Image src={"/news/newsImage1.jpg"}  width={300} height={200}
+                alt="shonankoInstituition"
+                className={styles.hireImage} />
             <p>楠正行公の遺徳を尊び忠孝の精神を日本人の心の柱として
                 毎月１２日の月命日に９時半より墓前にて詩吟唱歌等を合唱して供養
                 奉る会である。<br/><br/>
