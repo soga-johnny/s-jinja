@@ -1,0 +1,49 @@
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 6.8rem;
+    height: 3000px;
+    background-color: red;
+
+}
+.position {
+    position: absolute;
+    height: 100%;
+    top: 760px;
+    // heigh
+}
+.ralative {
+    position: relative;
+    height: 100%;
+    h1 {
+        position: sticky;
+        top: 6rem;
+        // left: 3rem;
+        writing-mode: vertical-rl;
+        font-size: 1.2rem;
+        letter-spacing: 0.4rem;
+        font-weight: 500;
+    }
+}
+.scroll {
+    margin-left: 3rem;
+    height: 220px;
+    border-left: solid 1px;
+    margin-bottom: 3rem;
+    p {
+        margin-left: 12px;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+        writing-mode: vertical-rl;
+
+    }
+}
+
+// --------------------------------------
+
+@media screen and (max-width:767px) {
+    .container {
+        opacity: 0;
+    }
+}

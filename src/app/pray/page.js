@@ -7,6 +7,7 @@ import styles from "./page.module.scss"
 import ContactBtn from "../../../components/ContactBtn";
 // import Link from "next/link";
 import Image from "next/image";
+import Sticky from "../../../components/Sticky";
 
 export default function Pray (){
 
@@ -14,6 +15,7 @@ export default function Pray (){
 
         <div className={styles.container}>
         <Header />
+        <Sticky />
         <TopVisual 
         visual="/visuals/pray.jpg"
         title="御祈祷のご案内"
@@ -30,6 +32,7 @@ export default function Pray (){
         <section className={styles.prayTop}>
             <div className={styles.prayEfficacyBox}>
             <div className={styles.prayEfficacy}>
+            <p> 商売繁昌 </p>
             <p> 厄除祈願 </p>
             <p> 安産祈願 </p>
             <p> 家内安全 </p>
@@ -56,14 +59,14 @@ export default function Pray (){
                         <p>受付時間</p>
                         {/* <p> 祈祷時刻</p> */}
                         <p>受付場所</p>
-                        {/* <p>料 　 金</p> */}
+                        <p>料 　 金</p>
 
                 </div>
                 <div className={styles.itemBodyRight}>
                         <p>午前９時半 - 午後４時</p>
                         {/* <p>午前９時 - 午後４時半</p> */}
                         <p>社務所（受付窓口）</p>
-                        {/* <p>000円</p> */}
+                        <p>10,000円</p>
 
                 </div>
             </div>

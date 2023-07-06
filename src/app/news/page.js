@@ -8,6 +8,7 @@ import ContactBtn from "../../../components/ContactBtn";
 import { getPosts } from "../../../sanity/sanity-utils";
 import Link from "next/link";
 import Image from "next/image";
+import Sticky from "../../../components/Sticky";
 
 export default async function News (){
 
@@ -17,6 +18,7 @@ export default async function News (){
 
         <div className={styles.container}>
         <Header />
+        <Sticky />
         <TopVisual 
         visual="/visuals/news.jpg"
         title="ご案内・お問い合わせ"

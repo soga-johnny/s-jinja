@@ -4,6 +4,7 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import TopVisual from "../../../components/TopVisual";
 import styles from "./page.module.scss"
+import Sticky from "../../../components/Sticky";
 // import Image from "next/image";
 // import SubtitleVisual from "../../../components/SubtitleVisual";
 
@@ -13,6 +14,7 @@ export default function Events (){
 
         <div className={styles.container}>
         <Header />
+        <Sticky />
         <TopVisual 
         visual="/visuals/events.jpg"
         title="年中行事"

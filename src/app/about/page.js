@@ -3,6 +3,7 @@
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import TopVisual from "../../../components/TopVisual";
+import Sticky from "../../../components/Sticky";
 import styles from "./page.module.scss"
 import Image from "next/image";
 import SubtitleVisual from "../../../components/SubtitleVisual";
@@ -14,6 +15,7 @@ export default function About (){
 
         <div className={styles.container}>
         <Header />
+        <Sticky />
         <TopVisual 
         visual="/visuals/about.jpg"
         title="四條畷神社について"

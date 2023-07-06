@@ -5,6 +5,7 @@ import Footer from "../../../components/Footer";
 import TopVisual from "../../../components/TopVisual";
 import styles from "./page.module.scss"
 import Image from "next/image";
+import Sticky from "../../../components/Sticky";
 
 export default function Nango (){
 
@@ -12,6 +13,7 @@ export default function Nango (){
 
         <div className={styles.container}>
         <Header />
+        <Sticky />
         <TopVisual 
         visual="/visuals/nango.jpg"
         title="南郷七社"

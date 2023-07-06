@@ -2,6 +2,7 @@
 
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
+import Sticky from "../../../components/Sticky";
 import styles from "./page.module.scss"
 import Image from "next/image";
 import Map from "../../../components/Map";
@@ -15,6 +16,8 @@ export default async function About (){
 
     <div>
     <Header />
+    <Sticky />
+
     <div>
     <motion.div
     initial={{ opacity: 0 }} 
@@ -43,13 +46,13 @@ export default async function About (){
       </div>
       </div>
 
-      <div className={styles.nameLogo}>
+      {/* <div className={styles.nameLogo}>
         <div className={styles.scroll}>
             <p>Scroll</p>
         </div>
         <h1>四條畷神社</h1>
 
-    </div>
+    </div> */}
     </div>
     </motion.div>
 
@@ -59,11 +62,11 @@ export default async function About (){
         alt="backAccent"
         className={styles.backAccentPC}
         />
-    <Image 
+    {/* <Image 
         src={ "/backAccentMobile.png" } width={1370} height={190}
         alt="backAccent"
         className={styles.backAccentMobile}
-        />
+        /> */}
     </div>
 
     <section className={styles.hire} >
@@ -103,22 +106,6 @@ export default async function About (){
             京阪バス「四條畷神社」下車　東へ徒歩約13分（650ｍ）</p>
         </section>
 
-        {/* <SubtitleVisual
-        title="お車でお越しの方"
-        description="無料駐車場がございますが、台数に限りがございますことご容赦下さい。
-        神社前の坂道では、対向車・歩行者などにご注意いただきますようお願いいたします。
-         
-        （各方面より）
-        第二京阪道路　寝屋川北IC 出口より約20分（6.0㎞）
-        第二京阪道路　寝屋川南IC出口より約15分（4.2㎞）
-        阪神高速13号東大阪線　水走 出口より約25分（7.5㎞）"
-        visual="/subtitles/subtitle1.jpg"
-        />
-        <SubtitleVisual
-        title="電車でお越しの方"
-        description="サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト"
-        visual="/subtitles/subtitle1.jpg"
-        /> */}
 
     <Footer />
     </div>

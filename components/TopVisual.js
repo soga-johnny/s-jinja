@@ -1,9 +1,14 @@
 import Image from 'next/image';
 import styles from './TopVisual.module.scss'
 import { motion } from 'framer-motion'
+import { ParallaxBanner } from 'react-scroll-parallax'
+// import Sticky from './Sticky'
 
 
-const TopVisual = ( props ) => (
+
+const TopVisual = ( props ) => {
+
+    return (
     
     <div>
     <motion.div
@@ -14,13 +19,25 @@ const TopVisual = ( props ) => (
     >
     <div className={styles.container}>
     <div className={styles.leftContent}>
-        <div className={styles.visualCover}>
-        <Image 
-        src={ props.visual }
-        alt="mainVisual"
-        fill
+        <div className={styles.visualCover} >
+
+
+<ParallaxBanner
+        layers={[
+          { image: `${props.visual}`, 
+            speed: -20, 
+            // scale: [0.9, 1, 'easeOutCubic'],
+            // shouldAlwaysCompleteAnimation: true,
+            // expanded: false,
+            // opacity: [1, 0.3],
+         },
+        ]}
         className={styles.visual}
-        />
+      >
+      </ParallaxBanner>
+
+      {/* -------- */}
+
         </div>
         <div className={styles.description}>
             <p>{ props.description }</p>
@@ -29,13 +46,13 @@ const TopVisual = ( props ) => (
     <div className={styles.rightContent}>
         <h2>{ props.title }</h2>
     </div>
-    <div className={styles.nameLogo}>
+    {/* <div className={styles.nameLogo}>
         <div className={styles.scroll}>
             <p>Scroll</p>
         </div>
         <h1>四條畷神社</h1>
 
-    </div>
+    </div> */}
     </div>
     </motion.div>
 
@@ -51,5 +68,6 @@ const TopVisual = ( props ) => (
         />
     </div>
 )
+    }
 
 export default TopVisual;

@@ -62,7 +62,7 @@ export default function Contact (){
             required
           />
         </div>
-        <div>
+        {/* <div>
           <label htmlFor="frm-last">ふりがな</label>
           <input
             id="frm-last"
@@ -71,7 +71,7 @@ export default function Contact (){
             autoComplete="family-name"
             required
           />
-        </div>
+        </div> */}
       </div>
       <div className={styles.emailBlock}>
         <label htmlFor="frm-email">メールアドレス</label>
@@ -83,7 +83,7 @@ export default function Contact (){
           required
         />
       </div>
-      <div className={styles.blockPhone}>
+      {/* <div className={styles.blockPhone}>
         <label htmlFor="frm-phone">電話番号</label>
         <input
           id="frm-phone"
@@ -92,7 +92,7 @@ export default function Contact (){
           autoComplete="tel"
           required
         />
-      </div>
+      </div> */}
       <div className={styles.messageBlock}>
         <label htmlFor="frm-message">お問い合わせ内容</label>
         <textarea id="frm-message" rows="9" name="message"></textarea>

@@ -5,6 +5,7 @@ import Footer from "../../../components/Footer";
 import styles from "./page.module.scss"
 import Image from "next/image";
 import { motion } from 'framer-motion'
+import Sticky from "../../../components/Sticky";
 
 
 export default function Map (){
@@ -13,7 +14,7 @@ export default function Map (){
 
     <div>
         <Header />
-
+        <Sticky />
     <div className={styles.content}>
     <motion.div className={styles.container}
     initial={{ opacity: 0 }} 
@@ -46,13 +47,13 @@ export default function Map (){
     </motion.div>
     {/* </div> */}
 
-    <div className={styles.nameLogo}>
+    {/* <div className={styles.nameLogo}>
         <div className={styles.scroll}>
             <p>Scroll</p>
         </div>
         <h1>四條畷神社</h1>
 
-    </div>
+    </div> */}
 
     <Image 
         src={ "/backAccentPC.png" } width={1370} height={190}
