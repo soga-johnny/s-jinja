@@ -1,6 +1,6 @@
 .container {
     height: 90vh;
-    margin-top: 10rem;
+    margin-top: 9rem;
     display: flex;
     align-items: center;
     h2 {
@@ -25,7 +25,7 @@
 .visualCover {
     // width: 100%;
     // width: 100% !important;
-    height: 40% !important;;
+    height: 45% !important;;
     display: flex;
     align-items: flex-end;
 
@@ -48,7 +48,7 @@
 // }
 .description {
     position: absolute;
-    top: 48%;
+    top: 52%;
     right: 10%;
     height: 35%;
     letter-spacing: 0.15rem;
@@ -111,7 +111,7 @@
 
 @media screen and (max-width:767px) {
     .container {
-        margin-top: 9rem;
+        margin-top: 7rem;
         // padding: 0 1rem;
         // margin: 0 auto;
         margin-bottom: 32rem;
@@ -130,11 +130,8 @@
         margin-right: 0;
     }
     .visualCover {
-        height: 40% !important;
+        height: 60% !important;
         // align-items: flex-end;
-
-
-
     }
     // .visual {
     //     // width: 50% !important;
@@ -177,9 +174,9 @@
     }
     .backAccentMobile {
         // position: fixed;
-        top: 75%;
-        left: -1;
-        width: 102%;
+        top: 95%;
+        left: 0;
+        width: 100%;
         height: auto;
         z-index: -1;
         opacity: 1;

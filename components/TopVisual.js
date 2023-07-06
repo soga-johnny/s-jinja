@@ -25,10 +25,13 @@ const TopVisual = ( props ) => {
 <ParallaxBanner
         layers={[
           { image: `${props.visual}`, 
-            speed: -20, 
+            // speed: -15, 
+            translateY: [0, 15 ],
+            scale: [3, 1, "easeOutCubic"],
             // scale: [0.9, 1, 'easeOutCubic'],
             // shouldAlwaysCompleteAnimation: true,
-            // expanded: false,
+            expanded: false,
+            // easing: "easeOutQuad",
             // opacity: [1, 0.3],
          },
         ]}
