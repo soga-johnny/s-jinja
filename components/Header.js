@@ -422,10 +422,10 @@ const Header = () => {
                     className={styles.item}>
                         <h3>お知らせ</h3>
                     </Link>
-                    <Link href="/news/#hire"
+                    {/* <Link href="/news/#hire"
                     className={styles.item}>
                         <h3>常駐のご案内</h3>
-                    </Link>
+                    </Link> */}
                     <Link href="/contact"
                     className={styles.item}>
                         <h3 className={styles.bottomItem}>

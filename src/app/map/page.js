@@ -82,7 +82,7 @@ export default function Map (){
                 </div>
                 <div className={styles.caption}>
                     <div className={styles.title}>
-                        <h3>御本殿</h3>
+                        <h3>❶ 御本殿</h3>
                     </div>
                         <p>
                         現在の本殿は、明治23年創建当初のまま残っている。拝殿は鎮座90年を記念し、昭和56年に改築された。
@@ -102,11 +102,11 @@ export default function Map (){
                 </div>
                 <div className={styles.caption}>
                     <div className={styles.title}>
-                        <h3>御妣神社</h3>
+                        <h3>❷ 御妣神社</h3>
                     </div>
                         <p>
                         楠正行公御母堂を祀る。大正14年10月5日御鎮座。
-                        足利高氏より送られてきた、父・正成公の首級を前に、悲しみのあまり後を追って
+                        父・正成公の首級を前に、悲しみのあまり後を追って
                         自害しようとした正行公を奮起させ、正しく導き育て上げられた。これゆえ当社では、
                         安産祈願・初宮詣など、賢母の教えを慕い、子育てに関わる祈願が多い。
                         </p>
@@ -126,7 +126,7 @@ export default function Map (){
                 </div>
                 <div className={styles.caption}>
                     <div className={styles.title}>
-                        <h3>楠天神社</h3>
+                        <h3>❸ 楠天神社</h3>
                     </div>
                         <p>
                         鎮座は昭和38年9月25日。学問の神と崇められる、菅原道真公を祀る。
@@ -145,7 +145,7 @@ export default function Map (){
                 </div>
                 <div className={styles.caption}>
                     <div className={styles.title}>
-                        <h3>有源招魂社</h3>
+                        <h3>❹ 有源招魂社</h3>
                     </div>
                         <p>
                         飯盛山の東峰に有源山があり、かつて成人教学研修所があった。
@@ -168,7 +168,7 @@ export default function Map (){
                 </div>
                 <div className={styles.caption}>
                     <div className={styles.title}>
-                        <h3>小楠公(楠正行公)御墓所</h3>
+                        <h3>❺ 小楠公(楠正行公)御墓所</h3>
                     </div>
                         <p>
                         参道より真っすぐ西へ約1㎞ほど進んだ突き当りにある。
@@ -191,7 +191,7 @@ export default function Map (){
                 </div>
                 <div className={styles.caption}>
                     <div className={styles.title}>
-                        <h3>和田賢秀御墓所</h3>
+                        <h3>❻ 和田賢秀御墓所</h3>
                     </div>
                         <p>
                         第一鳥居の北約200ｍのところにある。

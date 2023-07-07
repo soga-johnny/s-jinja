@@ -18,7 +18,7 @@ export default function Amulets (){
         visual="/visuals/amulet.jpg"
         title="授与品"
         description=
-        "　説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル説明サンプル"
+        "当社の主な授与品をご紹介致します。"
         />
         
         <section className={styles.contents}>

@@ -106,7 +106,7 @@ h3 {
 
 @keyframes fade-in {
 	0% {
-		transform: translateX(10px);
+		transform: translateX(15px);
 		opacity: 0;
 	}
 	100% {
@@ -122,6 +122,6 @@ h3 {
 	}
 	100% {
 		opacity: 0;
-		transform: translateX(10px);
+		transform: translateX(15px);
 	}
 }

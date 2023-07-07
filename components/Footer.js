@@ -15,40 +15,40 @@ const Footer = () => (
             <ul>
                 <h2>四條畷神社<br/>について</h2>
                 <li>
-                    <Link href="/"
+                    <Link href="/about"
                     className={styles.item}>
                         <h3>御由緒</h3>
                     </Link>
                 </li>
                 <li>
-                    <Link href="/"
+                    <Link href="/map"
                     className={styles.item}>
                         <h3>境内のご案内</h3>
                     </Link>
                 </li>
                 <li>
-                    <Link href="/"
+                    <Link href="/events"
                     className={styles.item}>
                         <h3>年中行事</h3>
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link href="/"
                     className={styles.item}>
                         <h3>飯盛山<br/>願かけ登山</h3>
                     </Link>
-                </li>
+                </li> */}
             </ul>
             <ul>
                 <h2>ご祈祷<br/>授与品</h2>
                 <li>
-                    <Link href="/"
+                    <Link href="/pray"
                     className={styles.item}>
-                        <h3>ご祈祷</h3>
+                        <h3>御祈祷</h3>
                     </Link>
                 </li>
                 <li>
-                    <Link href="/"
+                    <Link href="/amulets"
                     className={styles.item}>
                         <h3>授与品</h3>
                     </Link>
@@ -57,13 +57,13 @@ const Footer = () => (
             <ul>
                 <h2 className={styles.titleAlign}>アクセス</h2>
                 <li>
-                    <Link href="/"
+                    <Link href="/access"
                     className={styles.item}>
                         <h3>電車で<br/>お越しの方</h3>
                     </Link>
                 </li>
                 <li>
-                    <Link href="/"
+                    <Link href="/access"
                     className={styles.item}>
                         <h3>お車で<br/>お越しの方</h3>
                     </Link>
@@ -72,7 +72,7 @@ const Footer = () => (
             <ul>
                 <h2 className={styles.titleAlign}>南郷七社</h2>
                 <li>
-                    <Link href="/"
+                    <Link href="/nango"
                     className={styles.item}>
                         <h3>南郷七社の<br/>ご紹介</h3>
                     </Link>
@@ -81,19 +81,19 @@ const Footer = () => (
             <ul>
                 <h2>ご案内<br/>お問い合わせ</h2>
                 <li>
-                    <Link href="/"
+                    <Link href="/news"
                     className={styles.item}>
                         <h3>お知らせ</h3>
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link href="/"
                     className={styles.item}>
                         <h3>常駐のご案内</h3>
                     </Link>
-                </li>
+                </li> */}
                 <li>
-                    <Link href="/"
+                    <Link href="/contact"
                     className={styles.item}>
                         <h3> お問い合わせ</h3>
                     </Link>
