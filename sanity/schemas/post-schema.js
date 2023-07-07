@@ -20,7 +20,11 @@ const post = {
     {
       name: 'publishedAt',
       title: 'Published at',
-      type: 'datetime',
+      type: 'date',
+      options: {
+        dateFormat: 'YYYY.MM.DD',
+        calendarTodayLabel: 'Today',
+      },
     },
     {
       name: 'body',

@@ -73,9 +73,9 @@ export default async function About (){
             <div className={styles.title}>
                 <h2>お車でお越しの方</h2>
             </div>
-            <Image src={"/news/newsImage1.jpg"}  width={500} height={700}
+            {/* <Image src={"/news/newsImage1.jpg"}  width={500} height={700}
                 alt="shonankoInstituition"
-                className={styles.hireImage} />
+                className={styles.hireImage} /> */}
             <p>無料駐車場がございますが、台数に限りがございますことご容赦下さい。       
             神社前の坂道では、対向車・歩行者などにご注意いただきますようお願いいたします。<br/><br/>
             （各方面より）<br/>
@@ -88,9 +88,9 @@ export default async function About (){
             <div className={styles.title}>
                 <h2>電車でお越しの方</h2>
             </div>
-            <Image src={"/news/newsImage1.jpg"}  width={500} height={700}
+            {/* <Image src={"/news/newsImage1.jpg"}  width={500} height={700}
                 alt="shonankoInstituition"
-                className={styles.hireImage} />
+                className={styles.hireImage} /> */}
             <p>JR学研都市線「四条畷」駅下車<br/>
             東へ徒歩　約20分（1.0㎞）<br/></p>
         </section>
@@ -99,9 +99,9 @@ export default async function About (){
             <div className={styles.title}>
                 <h2>バスでお越しの方</h2>
             </div>
-            <Image src={"/news/newsImage1.jpg"}  width={500} height={700}
+            {/* <Image src={"/news/newsImage1.jpg"}  width={500} height={700}
                 alt="shonankoInstituition"
-                className={styles.hireImage} />
+                className={styles.hireImage} /> */}
             <p>近鉄バス「四條畷神社前」下車　東へ徒歩約13分（650ｍ）<br/>
             京阪バス「四條畷神社」下車　東へ徒歩約13分（650ｍ）</p>
         </section>

@@ -77,9 +77,9 @@ export default function Pray (){
                 </div>
             </div>
         </section>
-        <ContactBtn text="お申し込み・お問い合わせ" />
+        {/* <ContactBtn text="お申し込み・お問い合わせ" /> */}
 
-        <section className={styles.hire} >
+        {/* <section className={styles.hire} >
             <div className={styles.title}>
                 <h2>厄払い</h2>
             </div>
@@ -91,9 +91,9 @@ export default function Pray (){
             ダミーテキストダミーテキストダミーテキストダミーテキスト
             ダミーテキストダミーテキスト
             </p>
-        </section>
+        </section> */}
 
-        
+{/*         
         <section className={styles.hire}>
             <div className={styles.title}>
                 <h2>結婚式</h2>
@@ -125,7 +125,7 @@ export default function Pray (){
         <section className={styles.bottomHire}>
             <p>ダミーテキスト<br/>ダミーテキスト<br/>ダミーテキスト<br/></p>
             <ContactBtn text="お申し込み・お問い合わせ" />
-        </section>
+        </section> */}
 
         <Footer />
         </div>

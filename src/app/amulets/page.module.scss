@@ -1,18 +1,29 @@
 .contents {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
-}
-
-.items {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    
 }
+.contents > div {
+    flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+    // box-shadow: 0 0 0 1px black;
+    margin-bottom: 9rem;
+    // margin: 0 3rem;
+  }
+
+// .items {
+//     width: 100%;
+//     display: flex;
+//     justify-content: space-between;
+//     margin-bottom: 3rem;
+// }
 
 .item {
-    margin-bottom: 9rem;
-    width: 250px;
+    // width: 100%;
+    // margin-bottom: 9rem;
+    width: 300px;
 }
 .caption {
     width: 100%;
@@ -24,6 +35,7 @@
     margin-bottom: 1rem;
     padding: 1rem 2rem 1rem 0;
     border-bottom: solid 1px;
+    width: 300px;
     h3 {
         font-size: 1rem;
         letter-spacing: 0.1rem;
@@ -32,29 +44,31 @@
 
 // --------------------------------------
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
 
     .contents {
-        width: 60%;
-        margin: 0 auto;
+        width: 80%;
+        // margin: 0 auto;
     }
     
-    .items {
-        width: 100%;
-        flex-flow: column;
-        margin-bottom: 0;
-    }
+    // .items {
+    //     width: 100%;
+    //     flex-flow: column;
+    //     margin-bottom: 0;
+    // }
     
     .item {
         margin: 0 0 6rem 0;
-        width: 100%;
+        width: 150px;
     }
     .imageCover {
-        width: 100%;
+        width: 150px;
     }
     .title {
+        width: 150px;
         h3 {
             font-size: 0.9rem;
+            letter-spacing: 0.05rem;
         }
     }
 

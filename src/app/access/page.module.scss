@@ -101,20 +101,23 @@
 .title {
     width: 100%;
     margin-top: 6rem;
-    padding: 3rem 1rem;
+    padding: 3rem 0m;
     border-bottom: solid 1px;
-    text-align: center;
+    // text-align: center;
     h2 {
-        font-size: 2rem;
+        font-size: 1.2rem;
         letter-spacing: 0.3rem;
+        margin: 1.5rem 0;
     }
 }
 .hire {
     width: 50%;
     margin: 0 auto;
     p {
-        text-align: center;
+        // text-align: center;
         margin: 3rem 0;
+        line-height: 1.5rem;
+        letter-spacing: 0.1rem;
     }
 }
 .hireImage {
@@ -124,7 +127,7 @@
 
 // --------------------------------------
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
     .container {
         margin-top: 4rem;
         // padding: 0 1rem;
@@ -217,6 +220,7 @@
     .title {
         padding: 3rem 0 1.5rem 0;
         h2 {
+            margin: 0.5rem 0;
             font-size: 1.2rem;
         }
     }
@@ -224,7 +228,7 @@
         width: 70%;
         margin: 0 auto;
         p {
-            text-align: center;
+            // text-align: center;
             margin: 3rem 0;
             font-size: 0.9rem;
             letter-spacing: 0.05rem;

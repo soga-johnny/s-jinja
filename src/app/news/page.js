@@ -27,7 +27,6 @@ export default async function News (){
         />
 
         <section className={styles.contact}>
-            <p>ダミーテキスト<br/>ダミーテキスト<br/>ダミーテキスト<br/></p>
             <h3>
             〒 575-0021<br/>
             大阪府四條畷市南野2丁目18-1<br/>
@@ -57,18 +56,18 @@ export default async function News (){
             </div>
         </section>
 
-        <section className={styles.hire} id="hire">
+        {/* <section className={styles.hire} id="hire">
             <div className={styles.title}>
                 <h2>常駐のご案内</h2>
             </div>
             <p>ダミーテキスト<br/>ダミーテキスト<br/>ダミーテキスト<br/></p>
-        </section>
+        </section> */}
 
         <section className={styles.hire} >
             <div className={styles.title}>
                 <h2>常駐小楠公を偲ぶ会<br/>会員募集のご案内</h2>
             </div>
-            <Image src={"/news/newsImage1.jpg"}  width={300} height={200}
+            <Image src={"/news/newsImage1.jpg"}  width={500} height={335}
                 alt="shonankoInstituition"
                 className={styles.hireImage} />
             <p>楠正行公の遺徳を尊び忠孝の精神を日本人の心の柱として

@@ -31,8 +31,10 @@ export default function Contact (){
         const result = await response.json();
         if (result.success) {
             console.log(result);
+            return alert("送信が完了しました。改めてお返事を差し上げます。");
         }
     }
+
 
 
     return (

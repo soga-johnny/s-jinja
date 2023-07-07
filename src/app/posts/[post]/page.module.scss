@@ -6,6 +6,7 @@
 }
 .slug {
     width: 90%;
+    // height: auto;
     margin: 6rem auto ;
     p {
         font-size: 0,8rem;
@@ -23,17 +24,20 @@
 }
 .body {
     width: 100%;
-    height: fit-content;
+    height: auto;
     margin-top: 3rem;
     margin-bottom: 16rem;
     padding: 3rem 0;
     font-size: 1rem;
     letter-spacing: 0.1rem;
     line-height: 0.01rem;
+    // p {
+    //     color: aqua;
+    // }
 }
 
 .backBtn {
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 6rem 1.5rem 0;
     width: 20%;
     border-bottom: solid 1px;
     font-size: 0.8rem;
@@ -43,20 +47,21 @@
 
 // --------------------------------------
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
     .container {
         width: 80%;
-        background-color: coral;
+        height: auto;
+        margin: 4rem auto;
         padding: 1rem 0;
 
     }
     .slug {
         width: 90%;
         margin: 6rem auto ;
-        background-color: aqua;
         p {
             font-size: 0,8rem;
             margin-top: 3rem;
+            // line-height: 3rem;
         }
     }
     .title {
@@ -69,16 +74,16 @@
         }
     }
     .body {
-        height: fit-content;
+        height: auto;
         margin-top: 3rem;
         margin-bottom: 6rem;
         padding: 3rem 0;
         font-size: 1rem;
         letter-spacing: 0.1rem;
-        line-height: 0.01rem;
+        line-height: 2rem;
     }
     .backBtn {
-        padding: 1.5rem 3rem;
+        padding: 1.5rem 3rem 1.5rem 0;
         width: 30%;
         border-bottom: solid 1px;
         font-size: 0.9rem;

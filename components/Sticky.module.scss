@@ -1,9 +1,10 @@
 
 .container {
+    display: block;
     position: absolute;
     top: 0;
     left: 6.8rem;
-    height: 3000px;
+    height: 2000px;
     background-color: red;
 
 }
@@ -42,8 +43,8 @@
 
 // --------------------------------------
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
     .container {
-        opacity: 0;
+        display: none;
     }
 }

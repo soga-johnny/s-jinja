@@ -81,7 +81,7 @@ a {
   }
 } */
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
   html,
 body {
   /* font-family: var(--font-shippori); */
