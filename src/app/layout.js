@@ -25,11 +25,11 @@ export default function RootLayout({ children }) {
 
     <html lang="ja">
         <ParallaxProvider>
-    <AnimatePresence initial={false} mode={"wait"}>
       <body className={shippori.variable}>
+      <AnimatePresence initial={false} mode={"wait"}>
         {children}
-        </body>
         </AnimatePresence>
+        </body>
         </ParallaxProvider>
     </html>
   )

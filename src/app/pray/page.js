@@ -76,6 +76,9 @@ export default function Pray (){
 
                 </div>
             </div>
+            <Image src={"/pray/prayImage1.jpg"}  width={600} height={1030}
+                alt="shonankoInstituition"
+                className={styles.hireImage} />
         </section>
         {/* <ContactBtn text="お申し込み・お問い合わせ" /> */}
 

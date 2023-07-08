@@ -29,7 +29,7 @@ const Menu = (  ) => {
 
   return (
       <>
-          <div className={[styles.menu, isOpen && 'is-open'].join(' ')} onClick={menuToggle}><span></span><span></span><span></span></div>
+          <div className={[styles.menu, isOpen && 'is-open'].join(' ')} onClick={menuToggle}>{ isOpen ? 'Close' : 'Menu' }</div>
           { isOpen && (
                 // <motion.div
                 // variants={variants}

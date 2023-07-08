@@ -6,6 +6,7 @@ import styles from "./page.module.scss"
 import Link from "next/link";
 import { PortableText } from "@portabletext/react";
 import { getPost } from "../../../../sanity/sanity-utils";
+import { motion } from "framer-motion";
 
 export default async function Post ( { params } ){
 
@@ -15,8 +16,14 @@ export default async function Post ( { params } ){
     return (
 
         <div>
-        <div className={styles.container}>
         <Header />
+        <motion.div className={styles.container}
+        initial={{ opacity: 0 }} 
+        animate={{ opacity: 1 }} 
+        exit={{ opacity: 0 }}
+        transition = {{ delay: 0.7, duration: 1, ease: 'easeInOut' }} 
+        >
+        <div className={styles.container}>
         <Link href="/news"
             className={styles.backBtn}>
                 戻る
@@ -36,8 +43,8 @@ export default async function Post ( { params } ){
             className={styles.backBtn}>
                 戻る
         </Link>
-
         </div>
+        </motion.div>
         <Footer />
         </div>
     )

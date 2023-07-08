@@ -13,9 +13,9 @@ export default function Contact (){
         event.preventDefault();
         const formData = new FormData(event.target);
 
-        // const config = process.env.NEXT_PUBLIC_WEB3_FORM_ACCESS_KEY
+        const config = process.env.NEXT_PUBLIC_WEB3_FORM_ACCESS_KEY
 
-        formData.append("access_key", "899fb137-f184-4902-b707-79d453ab5510");
+        formData.append("access_key", [ config ]);
 
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
@@ -31,7 +31,7 @@ export default function Contact (){
         const result = await response.json();
         if (result.success) {
             console.log(result);
-            return alert("送信が完了しました。改めてお返事を差し上げます。");
+            return alert("お問い合わせが完了致しました。");
         }
     }
 
