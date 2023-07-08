@@ -14,6 +14,7 @@
     "@react-google-maps/api": "^2.18.1",
     "@sanity/client": "^6.1.5",
     "@sanity/ui": "^1.7.0",
+    "@splidejs/react-splide": "^0.7.12",
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^0.9.374",
     "eslint": "8.43.0",
