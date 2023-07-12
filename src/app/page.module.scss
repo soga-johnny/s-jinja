@@ -5,41 +5,93 @@
 .container {
   height: 100vh;
 }
-.fixed {
+.header {
   position: fixed;
-  top: 3rem;
-  right: 0;
+  top: 1rem;
+  left: 0;
+  // left:calc(50% - 50px/2);
+  // transform: translate(-50%, -50%);
   width: 100%;
-  height: 20%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 1;
+  mix-blend-mode: color-burn;
+
+}
+.logoName {
+    display: none;
+}
+.headerLogo {
+  margin: 0 auto;
+  text-align: center;
+}
+.logoContainer {
+
+  h1 {
+    margin: 3rem auto;
+    font-size: 1.6rem;
+    letter-spacing: 0.6rem;
+    writing-mode: vertical-rl;
+    opacity: 0;
+    animation: item 5s ease-in 0.8s;
+  }
+}
+.symbol {
+    opacity: 0;
+    animation: item 5s ease-in 0.2s;
+}
+
+.loadingAnimation {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  flex-flow: column;
+  z-index: 15;
+  background-color: white;
+  animation: loading 4s ease-in;
+  opacity: 0;
 }
-.logoContainer {
-  h1 {
-    margin: 0 auto;
-    font-size: 1rem;
-    color: white;
-    letter-spacing: 0.6rem;
-    writing-mode: vertical-rl;
+@keyframes loading {
+  0% {
+    opacity: 1;
+        transform: translateY(100%);
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    // opacity: 0;
+   transform: translateY(0%);
   }
 }
-.logo {
-  margin-bottom: 3rem;
+@keyframes item {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-.scroll {
-  position: absolute;
-  bottom: 3rem;
-  left: 0%;
-  // transform: translateX(-100%);
-  text-align: center;
-  color: white;
-  font-size: 1rem;
-  letter-spacing: 0.15rem;
-}
-
-// ---
 
 .splineContainer {
   position: fixed;
@@ -47,73 +99,44 @@
   left: 0;
   width: 100%;
   height: 100vh;
+    animation: experience 6s ease-in;
 }
-
-// ---
-
-.spline {
-  // position: sticky;
-  // top: 0;
-  // left: 0;
-  height:100vh;
-  width:100%;
- 
-  z-index: -5;
-}
-// .spline2 {
-//   position: sticky;
-//   top: 0;
-//   left: 0;
-//   height:100vh;
-//   width:100%;
-
-//   z-index: -4;
-// }
-
-.carousel {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: firebrick;
-  // display: flex;
-  z-index: -3;
-}
-.contents {
-  width: 50%;
-  height: 100%;
-  background-color: darkseagreen;
-}
-
-.body {
-  width: 50%;
-  height: 150vh;
-  margin-left: 3rem;
-  h2, h3 {
-    margin: 0 auto;
-    color: white;
-    // font-size: 1.2rem;
-    letter-spacing: 0.6rem;
-    writing-mode: vertical-rl;
+@keyframes experience {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 20%;
+  }
+  100% {
+    opacity: 1;
   }
 }
-.title {
-  width: 20%;
-  margin: 0 auto;
-  // margin-left: 1rem;
-  // padding: 0 2rem;
-  border-right: solid 1px white;
-  h2 {
-    font-size: 2rem;
+
+// --------------------------------------
+
+@media screen and (max-width:900px) {
+  // .logoName {
+  //     display: block;
+  //     margin: 1rem auto;
+  //     font-size: 1.2rem;
+  //     letter-spacing: 0.6rem;
+  //     writing-mode: vertical-rl;
+  // }
+  .headerLogo {
+    width: 80px;
+    height: auto;
   }
+
+  .logoContainer {
+
+    h1 {
+      margin: 0 auto;
+      font-size: 1.2rem;
+    }
+  }
+  .symbol {
+    width: 150px;
+    height: auto;
 }
-.subtitle {
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  margin: 12rem auto;
-  h3 {
-    font-size: 1.4rem;
-  }
 }

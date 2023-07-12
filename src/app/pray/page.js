@@ -4,7 +4,7 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import TopVisual from "../../../components/TopVisual";
 import styles from "./page.module.scss"
-import ContactBtn from "../../../components/ContactBtn";
+// import ContactBtn from "../../../components/ContactBtn";
 // import Link from "next/link";
 import Image from "next/image";
 import Sticky from "../../../components/Sticky";
