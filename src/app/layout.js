@@ -1,36 +1,49 @@
-"use client"
+import "./globals.css";
+import { Shippori_Mincho } from "next/font/google";
 
-import './globals.css'
-import { Shippori_Mincho } from 'next/font/google'
-import { AnimatePresence } from 'framer-motion'
-import { ParallaxProvider } from 'react-scroll-parallax';
+const siteName = "四條畷神社";
+const description =
+  "大阪・四條畷の飯盛山の山麓に鎮座する、小楠公（楠正行公）を主祭神とした神社";
+const url = "https://shijonawatejinja.or.jp";
 
+export const metadata = {
+  title: {
+    default: siteName,
+    template: `%s | ${siteName}`,
+  },
+  description,
+  openGraph: {
+    title: siteName,
+    description,
+    url,
+    siteName,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteName,
+    description,
+    creator: "@soga_johnny",
+  },
+  // verification: {
+  //   google: '',
+  // },
+  alternates: {
+    canonical: url,
+  },
+};
 
 const shippori = Shippori_Mincho({
-   subsets: ['latin'],
+  subsets: ["latin"],
   //  weight: ['400','500','600'],
-   weight: ['600'],
-   variable: "--font-shippori",
-  })
-
-// export const metadata = {
-//   title: '四條畷神社',
-//   description: '四條畷にある小楠公を主祭神にした神社',
-// }
-
-
+  weight: ["600"],
+  variable: "--font-shippori",
+});
 
 export default function RootLayout({ children }) {
   return (
-
     <html lang="ja">
-        <ParallaxProvider>
-      <body className={shippori.variable}>
-      <AnimatePresence initial={false} mode={"wait"}>
-        {children}
-        </AnimatePresence>
-        </body>
-        </ParallaxProvider>
+      <body className={shippori.variable}>{children}</body>
     </html>
-  )
+  );
 }

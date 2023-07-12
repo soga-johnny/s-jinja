@@ -1,17 +1,14 @@
 import Link from "next/link";
-import styles from "./ContactBtn.module.scss"
+import styles from "./ContactBtn.module.scss";
 
-
-
-const ContactBtn = ( props ) => (
-
-    <div className={styles.container}>
+const ContactBtn = (props) => (
+  <div className={styles.container}>
     <button className={styles.btn}>
-        <Link href="/contact">
-            <p>{ props.text }</p>
-        </Link>
+      <Link href="/contact">
+        <p>{props.text}</p>
+      </Link>
     </button>
-    </div>
-)
+  </div>
+);
 
 export default ContactBtn;

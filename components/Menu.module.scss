@@ -6,8 +6,8 @@
   outline: none;
   padding: 0;
   appearance: none;
-//   border: 1px solid #414141;
-  padding:  1rem 1.5rem ;
+  //   border: 1px solid #414141;
+  padding: 1rem 1.5rem;
   // width: 70px;
   position: fixed;
   top: 0.5rem;
@@ -39,33 +39,30 @@
   //     transform-origin: left bottom;
   //   }
   // }
-
 }
 
 .spNav {
-    padding: 1.7rem 1.5rem;
-    position: fixed;
-    z-index: 10;
-    background: white;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    animation: fade-in 0.5s forwards;
-    
+  padding: 1.7rem 1.5rem;
+  position: fixed;
+  z-index: 10;
+  background: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: fade-in 0.5s forwards;
 
+  // text-align: center;
+  h2 {
     // text-align: center;
-    h2 {
-        // text-align: center;
-        margin-bottom: 3rem;
-        letter-spacing: 0.5rem;
-    }
+    margin-bottom: 3rem;
+    letter-spacing: 0.5rem;
   }
-  
+}
 
 .item {
-//   display: flex;
-//   justify-content: center;
+  //   display: flex;
+  //   justify-content: center;
   width: 70%;
   height: fit-content;
   margin: 1rem auto;
@@ -73,14 +70,14 @@
   text-align: center;
   border-bottom: solid 1px;
 
-//   p {
-//     margin: 0.5rem 0;
-//     font-size: 0.9rem;
-    
-//   }
-h3 {
+  //   p {
+  //     margin: 0.5rem 0;
+  //     font-size: 0.9rem;
+
+  //   }
+  h3 {
     letter-spacing: 0.3rem;
-}
+  }
 
   & + & {
     margin-top: 1rem;
@@ -108,23 +105,23 @@ h3 {
 // }
 
 @keyframes fade-in {
-	0% {
-		transform: translateX(10px);
-		opacity: 0;
-	}
-	100% {
-		transform: translateX(0);
-		opacity: 1;
-	}
+  0% {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @keyframes fade-out {
-	0% {
-		opacity: 1;
+  0% {
+    opacity: 1;
     transform: translateX(0);
-	}
-	100% {
-		opacity: 0;
-		transform: translateX(10px);
-	}
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(10px);
+  }
 }
