@@ -28,13 +28,13 @@ export default async function NewsComponent() {
           />
 
           <section className={styles.contact}>
-            <h3>
+            {/* <h3>
               〒 575-0021
               <br />
               大阪府四條畷市南野2丁目18-1
               <br />
               電話： (072) 876-0044
-            </h3>
+            </h3> */}
             <ContactBtn text="お問い合わせ" />
           </section>
 
@@ -69,7 +69,7 @@ export default async function NewsComponent() {
           <section className={styles.hire}>
             <div className={styles.title}>
               <h2>
-                常駐小楠公を偲ぶ会
+                小楠公を偲ぶ会
                 <br />
                 会員募集のご案内
               </h2>
@@ -149,11 +149,11 @@ export default async function NewsComponent() {
               <br />
               例会(毎月第２火曜日 午後１時３０分～午後３時)
               <br />
-              <Link
+                <a target="_blank" rel="noopener noreferrer" 
                 href="http://nawate-kyobun.jp/masatsura.html"
                 className={styles.externalLink}>
-                四條畷市立教育文化センター
-              </Link>
+                  四條畷市立教育文化センター
+                </a>
               <br />
               <br />
               詳細については、四條畷神社社務所までお問い合わせ下さい。

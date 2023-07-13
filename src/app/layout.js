@@ -3,7 +3,7 @@ import { Shippori_Mincho } from "next/font/google";
 
 const siteName = "四條畷神社";
 const description =
-  "大阪・四條畷の飯盛山の山麓に鎮座する、小楠公（楠正行公）を主祭神とした神社";
+  "大阪・四條畷市、飯盛山の山麓に鎮座する、楠正行公（小楠公さん）を主祭神とした心願成就のご利益がある神社";
 const url = "https://shijonawatejinja.or.jp";
 
 export const metadata = {

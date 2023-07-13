@@ -83,11 +83,13 @@ const Header = () => {
             onMouseOver={handleMouseOver1}
             onMouseOut={handleMouseOut1}>
             <summary>
+              <Link href={"/about"}>
               <h2>
                 四條畷神社
                 <br />
                 について
               </h2>
+              </Link>
             </summary>
             {isHovering1 && (
               <div className={styles.hover}>
@@ -115,11 +117,13 @@ const Header = () => {
             onMouseOver={handleMouseOver2}
             onMouseOut={handleMouseOut2}>
             <summary>
+            <Link href={"/pray"}>
               <h2>
                 御祈祷
                 <br />
                 授与品
               </h2>
+              </Link>
             </summary>
             {isHovering2 && (
               <div className={styles.hover}>
@@ -137,7 +141,9 @@ const Header = () => {
             onMouseOver={handleMouseOver3}
             onMouseOut={handleMouseOut3}>
             <summary>
+            <Link href={"/access"}>
               <h2 className={styles.titleAlign}>アクセス</h2>
+              </Link>
             </summary>
             {isHovering3 && (
               <div className={styles.hover}>
@@ -163,7 +169,9 @@ const Header = () => {
             onMouseOver={handleMouseOver4}
             onMouseOut={handleMouseOut4}>
             <summary>
+            <Link href={"/nango"}>
               <h2 className={styles.titleAlign}>南郷七社</h2>
+              </Link>
             </summary>
             {isHovering4 && (
               <div className={styles.hover}>
@@ -182,11 +190,13 @@ const Header = () => {
             onMouseOver={handleMouseOver5}
             onMouseOut={handleMouseOut5}>
             <summary>
+            <Link href={"/news"}>
               <h2>
                 ご案内
                 <br />
                 お問い合わせ
               </h2>
+              </Link>
             </summary>
             {isHovering5 && (
               <div className={styles.hover}>
