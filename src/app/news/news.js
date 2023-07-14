@@ -15,6 +15,7 @@ import { ParallaxProvider } from "react-scroll-parallax";
 export default async function NewsComponent() {
   const posts = await getPosts();
 
+  
   return (
     <ParallaxProvider>
       <AnimatePresence initial={true} mode={"wait"}>
