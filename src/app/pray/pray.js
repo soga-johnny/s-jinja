@@ -91,7 +91,7 @@ export default function PrayComponent() {
               <p>
                 神前結婚式、神職が出張する神事、
                 <br />
-                新葬祭（神式の葬儀）についてはお問い合わせ下さい。
+                神葬祭（神式の葬儀）についてはお問い合わせ下さい。
               </p>
             </div>
           </div>
