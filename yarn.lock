@@ -1093,6 +1093,11 @@
     "@typescript-eslint/types" "5.60.1"
     eslint-visitor-keys "^3.3.0"
 
+"@vercel/analytics@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@vercel/analytics/-/analytics-1.0.1.tgz"
+  integrity sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==
+
 "@vercel/error-utils@1.0.10":
   version "1.0.10"
   resolved "https://registry.npmjs.org/@vercel/error-utils/-/error-utils-1.0.10.tgz"

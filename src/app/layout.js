@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Shippori_Mincho } from "next/font/google";
+import { Analytics } from '@vercel/analytics/react';
 
 const siteName = "四條畷神社";
 const description =
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ja">
       <body className={shippori.variable}>{children}</body>
+      <Analytics />
     </html>
   );
 }

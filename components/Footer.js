@@ -100,12 +100,6 @@ const Footer = () => (
               <h3>お知らせ</h3>
             </Link>
           </li>
-          {/* <li>
-                    <Link href="/"
-                    className={styles.item}>
-                        <h3>常駐のご案内</h3>
-                    </Link>
-                </li> */}
           <li>
             <Link href="/contact" className={styles.item}>
               <h3> お問い合わせ</h3>
@@ -126,7 +120,7 @@ const Footer = () => (
            (072) 876-0044<br />
           info@shijonawatejinja.or.jp
           <br />
-          社務所・ご祈祷 : 午前9時〜午後5時
+          社務所・授与所 : 午前9時〜午後5時
           <br />
         </p>
       </div>
