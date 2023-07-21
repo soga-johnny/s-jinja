@@ -52,7 +52,7 @@ export default function PrayComponent() {
           </div>
           <div className={styles.prayTopCaption}>
             <p>
-              忠孝両全の武将としてその御神徳は
+              忠孝両全の武将として
               「なにわ七幸めぐり」で心願成就の御利益と言われるほど、幅広い御神徳がある。
               <br />
               <br />

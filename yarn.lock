@@ -641,7 +641,7 @@
     golden-fleece "^1.0.9"
     pkg-dir "^5.0.0"
 
-"@sanity/client@^6.1.1", "@sanity/client@^6.1.4", "@sanity/client@^6.1.5":
+"@sanity/client@^5.0.0 || ^6.0.0", "@sanity/client@^6.1.1", "@sanity/client@^6.1.4", "@sanity/client@^6.1.5":
   version "6.1.5"
   resolved "https://registry.npmjs.org/@sanity/client/-/client-6.1.5.tgz"
   integrity sha512-X0Du8McoE2564AqAuSlwsQ2i9cHMfPos/a+cslmcTWXY3leV/QKzpqHQomuDlfEmkIhoFZW1UL33+MTxw7+Miw==
@@ -3915,6 +3915,13 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
+
+next-sanity-image@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.npmjs.org/next-sanity-image/-/next-sanity-image-6.1.0.tgz"
+  integrity sha512-xSIMPqgRFsurZhNTp0d0q/8ZDjmOR3thhle7u0M9SHIKCYWMy3e3p9Q6Gx2f+CcY8TbE43OPZHVEsMrzt0yqNQ==
+  dependencies:
+    "@sanity/image-url" "^1.0.2"
 
 next-sanity@^5.1.0:
   version "5.1.0"

@@ -1,3 +1,5 @@
+import SanityImage from "../../components/SanityImage";
+
 const blockContent = {
   title: 'Block Content',
   name: 'blockContent',
@@ -41,6 +43,13 @@ const blockContent = {
       options: {hotspot: true},
     },
   ],
+  types: {
+    image: ({ image }) => {
+      return (
+        <SanityImage {...image} />
+      );
+    },
+  },
 }
 
 export default blockContent;

@@ -12,11 +12,13 @@ const Footer = () => (
     <div className={styles.container}>
       <div className={styles.navi}>
         <ul>
+        <Link href="/about">
           <h2>
             四條畷神社
             <br />
             について
           </h2>
+          </Link>
           <li>
             <Link href="/about" className={styles.item}>
               <h3>御由緒</h3>
@@ -40,11 +42,13 @@ const Footer = () => (
                 </li> */}
         </ul>
         <ul>
+        <Link href="/pray">
           <h2>
             ご祈祷
             <br />
             授与品
           </h2>
+          </Link>
           <li>
             <Link href="/pray" className={styles.item}>
               <h3>御祈祷</h3>
@@ -57,7 +61,9 @@ const Footer = () => (
           </li>
         </ul>
         <ul>
+        <Link href="/access">
           <h2 className={styles.titleAlign}>アクセス</h2>
+          </Link>
           <li>
             <Link href="/access" className={styles.item}>
               <h3>
@@ -78,7 +84,9 @@ const Footer = () => (
           </li>
         </ul>
         <ul>
+        <Link href="/nango">
           <h2 className={styles.titleAlign}>南郷七社</h2>
+          </Link>
           <li>
             <Link href="/nango" className={styles.item}>
               <h3>
@@ -90,11 +98,13 @@ const Footer = () => (
           </li>
         </ul>
         <ul>
+        <Link href="/news">
           <h2>
             ご案内
             <br />
             お問い合わせ
           </h2>
+          </Link>
           <li>
             <Link href="/news" className={styles.item}>
               <h3>お知らせ</h3>

@@ -14,7 +14,6 @@ import { ParallaxProvider } from "react-scroll-parallax";
 
 export default async function NewsComponent() {
   const posts = await getPosts();
-
   
   return (
     <ParallaxProvider>
@@ -51,7 +50,6 @@ export default async function NewsComponent() {
                     <h3>{post.title}</h3>
                   </div>
                   <p>{post.publishedAt}</p>
-                  {/* <p>{post.body}</p> */}
                   <div className={styles.newsMoreBtn}>
                     <p>詳しく見る</p>
                   </div>

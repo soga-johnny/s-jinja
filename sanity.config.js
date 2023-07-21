@@ -4,7 +4,7 @@ import schemas from './sanity/schemas';
 
 const config = defineConfig({
   title: 's-jinja-studio',
-  projectId: 'm0hbf769',
+  projectId: process.env.NEXT_PUBLIC_SANITY_STUDIO_PROJECT_ID,
   dataset: 'production',
   apiVersion: "2023-06-27",
   basePath: "/admin",

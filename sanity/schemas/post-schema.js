@@ -1,37 +1,37 @@
 const post = {
-  name: 'post',
-  title: 'Post',
-  type: 'document',
+  name: "post",
+  title: "Post",
+  type: "document",
   fields: [
     {
-      name: 'title',
-      title: 'Title',
-      type: 'string',
+      name: "title",
+      title: "Title",
+      type: "string",
     },
     {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
+      name: "slug",
+      title: "Slug",
+      type: "slug",
       options: {
-        source: 'title',
+        source: "title",
         maxLength: 96,
       },
     },
     {
-      name: 'publishedAt',
-      title: 'Published at',
-      type: 'date',
+      name: "publishedAt",
+      title: "Published at",
+      type: "date",
       options: {
-        dateFormat: 'YYYY.MM.DD',
-        calendarTodayLabel: 'Today',
+        dateFormat: "YYYY年MM月DD日",
+        calendarTodayLabel: "Today",
       },
     },
     {
-      name: 'body',
-      title: 'Body',
-      type: 'blockContent',
+      name: "body",
+      title: "Body",
+      type: "blockContent",
     },
   ],
-}
+};
 
 export default post;
