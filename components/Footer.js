@@ -12,12 +12,12 @@ const Footer = () => (
     <div className={styles.container}>
       <div className={styles.navi}>
         <ul>
-        <Link href="/about">
-          <h2>
-            四條畷神社
-            <br />
-            について
-          </h2>
+          <Link href="/about">
+            <h2>
+              四條畷神社
+              <br />
+              について
+            </h2>
           </Link>
           <li>
             <Link href="/about" className={styles.item}>
@@ -34,20 +34,23 @@ const Footer = () => (
               <h3>年中行事</h3>
             </Link>
           </li>
-          {/* <li>
-                    <Link href="/"
-                    className={styles.item}>
-                        <h3>飯盛山<br/>願かけ登山</h3>
-                    </Link>
-                </li> */}
+          <li>
+            <Link href="/hiking" className={styles.item}>
+              <h3>
+                飯盛山
+                <br />
+                願かけ登山
+              </h3>
+            </Link>
+          </li>
         </ul>
         <ul>
-        <Link href="/pray">
-          <h2>
-            ご祈祷
-            <br />
-            授与品
-          </h2>
+          <Link href="/pray">
+            <h2>
+              ご祈祷
+              <br />
+              授与品
+            </h2>
           </Link>
           <li>
             <Link href="/pray" className={styles.item}>
@@ -61,8 +64,8 @@ const Footer = () => (
           </li>
         </ul>
         <ul>
-        <Link href="/access">
-          <h2 className={styles.titleAlign}>アクセス</h2>
+          <Link href="/access">
+            <h2 className={styles.titleAlign}>アクセス</h2>
           </Link>
           <li>
             <Link href="/access" className={styles.item}>
@@ -84,8 +87,8 @@ const Footer = () => (
           </li>
         </ul>
         <ul>
-        <Link href="/nango">
-          <h2 className={styles.titleAlign}>南郷七社</h2>
+          <Link href="/nango">
+            <h2 className={styles.titleAlign}>南郷七社</h2>
           </Link>
           <li>
             <Link href="/nango" className={styles.item}>
@@ -98,12 +101,12 @@ const Footer = () => (
           </li>
         </ul>
         <ul>
-        <Link href="/news">
-          <h2>
-            ご案内
-            <br />
-            お問い合わせ
-          </h2>
+          <Link href="/news">
+            <h2>
+              ご案内
+              <br />
+              お問い合わせ
+            </h2>
           </Link>
           <li>
             <Link href="/news" className={styles.item}>
@@ -126,8 +129,10 @@ const Footer = () => (
           〒 575-0021
           <br />
           大阪府四條畷市南野2丁目18-1
-          <br /><br />
-           (072) 876-0044<br />
+          <br />
+          <br />
+          (072) 876-0044
+          <br />
           info@shijonawatejinja.or.jp
           <br />
           社務所・授与所 : 午前9時〜午後5時

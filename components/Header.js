@@ -102,13 +102,14 @@ const Header = () => {
                 <Link href="/events" className={styles.item}>
                   <h3>年中行事</h3>
                 </Link>
-                <div className={styles.item}>
-                  <h3 className={styles.bottomItemGrey}>
+                <Link href="/hiking" className={styles.item}>
+                  {/* <h3 className={styles.bottomItemGrey}> */}
+                  <h3>
                     飯盛山
                     <br />
                     願かけ登山
                   </h3>
-                </div>
+                </Link>
               </div>
             )}
           </details>

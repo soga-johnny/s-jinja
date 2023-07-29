@@ -50,6 +50,15 @@ const Menu = () => {
 
           <div className={styles.item}>
             {/* <div className={styles.navTitle}> */}
+            <Link href="/hiking">
+              {" "}
+              <h3>飯盛山願かけ登山</h3>
+            </Link>
+            {/* </div> */}
+          </div>
+
+          <div className={styles.item}>
+            {/* <div className={styles.navTitle}> */}
             <Link href="/pray">
               {" "}
               <h3>御祈祷</h3>

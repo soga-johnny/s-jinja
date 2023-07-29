@@ -14,7 +14,7 @@ import { ParallaxProvider } from "react-scroll-parallax";
 
 export default async function NewsComponent() {
   const posts = await getPosts();
-  
+
   return (
     <ParallaxProvider>
       <AnimatePresence initial={true} mode={"wait"}>
@@ -148,11 +148,13 @@ export default async function NewsComponent() {
               <br />
               例会(毎月第２火曜日 午後１時３０分～午後３時)
               <br />
-                <a target="_blank" rel="noopener noreferrer" 
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="http://nawate-kyobun.jp/masatsura.html"
                 className={styles.externalLink}>
-                  四條畷市立教育文化センター
-                </a>
+                四條畷市立教育文化センター
+              </a>
               <br />
               <br />
               詳細については、四條畷神社社務所までお問い合わせ下さい。
