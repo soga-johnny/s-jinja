@@ -4,39 +4,44 @@ import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import styles from "./page.module.scss";
 import Link from "next/link";
-import Image from "next/image";
 import { PortableText } from "@portabletext/react";
 import { getPost } from "../../../../sanity/sanity-utils";
 import { AnimatePresence, motion } from "framer-motion";
 // import SanityImage from "../../../../components/SanityImage";
-import { useNextSanityImage } from "next-sanity-image";
+// import { useNextSanityImage } from "next-sanity-image";
+import imageUrlBuilder from '@sanity/image-url'
+// import {getImageDimensions} from '@sanity/asset-utils'
+// import Image from "next/image";
+import config from "../../../../sanity/config/client.config";
+
+
+function urlFor (source) {
+  return imageUrlBuilder(config).image(source)
+}
+
+const ptComponents = {
+  types: {
+    image: ({ value }) => {
+      if (!value?.asset?._ref) {
+        return null
+      }
+      return (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          alt={value.alt || ' '}
+          loading="lazy"
+          src={urlFor(value).fit('max').auto('format')}
+          className={styles.inlineImage}
+        />
+      )
+    }
+  }
+}
 
 
 export default async function Post({ params }) {
   const slug = params.post;
   const post = await getPost(slug);
-
-  // const imageComponent = {
-  //   types: {
-  //     image: SanityImage
-  //   }
-  // }
-
-  const SanityImage = ({ post }) => {
-    const imageProps = useNextSanityImage(post);
-  
-    if (!imageProps) return null;
-  
-    return (
-      <Image
-        // {...imageProps}
-        src={imageProps.slug}
-        width={500}
-        height={500}
-        alt={'postsImage'}
-      />
-    );
-  };
 
   return (
     <div>
@@ -62,12 +67,7 @@ export default async function Post({ params }) {
               <div className={styles.body}>
                 <PortableText
                   value={post.body}
-                  components={{
-                    types: {
-                      image: SanityImage 
-                      
-                    }
-                  }} 
+                  components={ptComponents} 
                     />
               </div>
             </section>

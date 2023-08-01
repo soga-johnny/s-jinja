@@ -42,7 +42,12 @@
   font-size: 0.8rem;
   letter-spacing: 0.3rem;
 }
-
+.inlineImage {
+  // width: 200px;
+  // height: 300px;
+  object-fit: fill;
+  margin: 3rem 0;
+}
 
 // --------------------------------------
 

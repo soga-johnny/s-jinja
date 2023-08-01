@@ -6,7 +6,7 @@ import TopVisual from "../../../components/TopVisual";
 import Sticky from "../../../components/Sticky";
 import styles from "./page.module.scss";
 import Image from "next/image";
-import SubtitleVisual from "../../../components/SubtitleVisual";
+// import SubtitleVisual from "../../../components/SubtitleVisual";
 import { AnimatePresence } from "framer-motion";
 import { ParallaxProvider } from "react-scroll-parallax";
 
@@ -73,7 +73,7 @@ export default function HikingComponent() {
               </div>
               <div className={styles.caption}>
                 <p>
-                  願かけ登山では、授与所にて「願い札」（初穂料500円）をお受けいただき、御神前にて「願い札」に
+                  願かけ登山では、授与所にて「願い札」(初穂料500円)をお受けいただき、御神前にて「願い札」に
                   願事を書き記した後、御参拝頂き、願いを込めて登山を行い、山頂におられる楠正行公銅像前に
                   しつらえた願い札奉掲所に「願い札」を奉掲して頂くというものです。
                   <br />

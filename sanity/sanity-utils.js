@@ -20,7 +20,8 @@ export async function getPost( slug ) {
         _id,
         title,
         "slug": slug.current,
-        // "image": image.asset->url,
+        "image": image.asset->url,
+
         publishedAt,
         body
       }`,
