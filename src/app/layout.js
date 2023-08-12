@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Shippori_Mincho } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
-import Script from "next/script";
+import GoogleAnalytics from "../../components/GoogleAnalytics";
 
 const siteName = "四條畷神社";
 const description =
@@ -45,21 +45,9 @@ const shippori = Shippori_Mincho({
 export default function RootLayout({ children }) {
   return (
     <html lang="ja">
-      <Script
-        id="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-      />
-
-      <Script id="lazyOnload">
-        {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-                    page_path: window.location.pathname,
-                    });
-                `}
-      </Script>
+      <head>
+        <GoogleAnalytics />
+      </head>
       <body className={shippori.variable}>{children}</body>
       <Analytics />
     </html>
