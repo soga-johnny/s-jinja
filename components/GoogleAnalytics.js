@@ -4,7 +4,7 @@ import { usePathname, useSearchParams } from "next/navigation";
 import Script from "next/script";
 // import { useRouter } from "next/router"
 import { useEffect } from "react";
-import { existsGaId, GA_TRACKING_ID, pageview } from "../src/app/lib/gtag";
+import { existsGaId, GA_TRACKING_ID, pageview } from "../lib/gtag";
 
 const GoogleAnalytics = () => {
   const pathname = usePathname();
