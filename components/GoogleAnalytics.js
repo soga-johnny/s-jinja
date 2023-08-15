@@ -4,7 +4,7 @@ import { usePathname, useSearchParams } from "next/navigation";
 import Script from "next/script";
 // import { useRouter } from "next/router"
 import { useEffect } from "react";
-import { existsGaId, GA_TRACKING_ID, pageview } from "../src/app/lib/gtag";
+import { existsGaId, pageview } from "../src/app/lib/gtag";
 
 const GoogleAnalytics = () => {
   const pathname = usePathname();
@@ -22,14 +22,14 @@ const GoogleAnalytics = () => {
     <>
       <Script
         strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-SWVR8H6MYT`}
       />
       <Script id="gtag-init" strategy="afterInteractive">
         {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${GA_TRACKING_ID}', {
+            gtag('config', 'G-SWVR8H6MYT', {
               page_path: window.location.pathname,
             });
           `}
