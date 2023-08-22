@@ -14,10 +14,11 @@ export default function Component() {
       <div className={styles.loadingAnimation}>
         <div className={styles.logoContainer}>
           {/* <Image 
-        src={"/logoBlack.png"} width={120} height={122}
+                   src={"/logoBlack.png"} width={120} height={122}
         alt="logo"
         className={styles.symbol}
         /> */}
+
           <iframe
             width="180"
             height="120"

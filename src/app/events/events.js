@@ -111,7 +111,6 @@ export default function EventsComponent() {
                     <p>４日</p>
                     <p>５日</p>
                     <p>１５日</p>
-                    <p>１７日</p>
                     <p>２５日</p>
                     <p>２９日</p>
                   </div>
@@ -120,7 +119,6 @@ export default function EventsComponent() {
                     <p>春季大祭前日祭</p>
                     <p>春季大祭</p>
                     <p>月次祭</p>
-                    <p>祈年祭</p>
                     <p>楠天神社月例祭</p>
                     <p>昭和祭</p>
                   </div>
