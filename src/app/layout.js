@@ -45,11 +45,11 @@ const shippori = Shippori_Mincho({
 export default function RootLayout({ children }) {
   return (
     <html lang="ja">
-      {/* <head> */}
-      {/* </head> */}
+      <head>
+      <GoogleAnalytics />
+      </head>
       <body className={shippori.variable}>{children}</body>
       <Analytics />
-      <GoogleAnalytics />
     </html>
   );
 }
