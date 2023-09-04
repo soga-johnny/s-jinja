@@ -29,7 +29,7 @@ export default function Component() {
       </div>
 
       <div className={styles.splineContainer}>
-        <Spline scene="https://prod.spline.design/ga92tzKOHqSaXc1Q/scene.splinecode"></Spline>
+        <Spline scene="https://prod.spline.design/MwFNcIAdb5Yexg6m/scene.splinecode"></Spline>
       </div>
     </main>
   );
