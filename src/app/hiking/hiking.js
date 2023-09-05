@@ -24,11 +24,11 @@ export default function HikingComponent() {
           />
 
           <section className={styles.contact}>
-            <h3>
+            {/* <h3>
               令和５年
               <br />
               ８月１１日(金) 山の日より開始
-            </h3>
+            </h3> */}
             <p>
               8月11日は午前9時より、本殿にて願かけ登山始奉告祭斎行<br/>
               願かけ登山に参加される方はご参列頂けます。

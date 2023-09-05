@@ -4,6 +4,7 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import TopVisual from "../../../components/TopVisual";
 import Sticky from "../../../components/Sticky";
+import PrayBtn from "../../../components/PrayBtn";
 import styles from "./page.module.scss";
 import Image from "next/image";
 import SubtitleVisual from "../../../components/SubtitleVisual";
@@ -140,6 +141,8 @@ export default function AboutComponent() {
               </div>
             </div>
           </section>
+          <PrayBtn text="ご祈祷のご案内はこちら" />
+
 
           <Footer />
         </div>

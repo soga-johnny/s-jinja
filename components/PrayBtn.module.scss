@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  width: 40%;
+  height: 8rem;
+  // margin: 6rem 0;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  p {
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+  }
+}
+
+// --------------------------------------
+
+@media screen and (max-width: 900px) {
+  .btn {
+    width: 70%;
+    height: 6rem;
+    // margin: 3rem 0;
+    padding: 1.5rem;
+  }
+}
