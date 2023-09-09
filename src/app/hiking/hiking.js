@@ -100,7 +100,7 @@ export default function HikingComponent() {
                   height={200}
                   alt="imoriyamaImages"
                   className={styles.hireImage}
-                />zzzzzzzzz6
+                />
                 <div className={styles.stepsItemTextContainer}>
                   <div className={styles.stepsItemLine}>
                     <p>1</p>
