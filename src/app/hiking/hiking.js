@@ -95,7 +95,7 @@ export default function HikingComponent() {
             <div className={styles.stepsItemContainer}>
               <div className={styles.stepsItem}>
                 <Image
-                  src={"/hiking/steps1.jpg"}
+                  src={"/hiking/step1.jpg"}
                   width={500}
                   height={200}
                   alt="imoriyamaImages"
@@ -111,7 +111,7 @@ export default function HikingComponent() {
 
               <div className={styles.stepsItem}>
                 <Image
-                  src={"/hiking/steps2.jpg"}
+                  src={"/hiking/step2.jpg"}
                   width={500}
                   height={335}
                   alt="imoriyamaImages"
@@ -129,7 +129,7 @@ export default function HikingComponent() {
 
               <div className={styles.stepsItem}>
                 <Image
-                  src={"/hiking/steps3.jpg"}
+                  src={"/hiking/step3.jpg"}
                   width={500}
                   height={335}
                   alt="imoriyamaImages"
@@ -148,7 +148,7 @@ export default function HikingComponent() {
 
               <div className={styles.stepsItem}>
                 <Image
-                  src={"/hiking/steps4.jpg"}
+                  src={"/hiking/step4.jpg"}
                   width={500}
                   height={335}
                   alt="imoriyamaImages"
