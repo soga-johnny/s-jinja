@@ -129,7 +129,7 @@ export default function HikingComponent() {
 
               <div className={styles.stepsItem}>
                 <Image
-                  src={"/hiking/step3.jpg"}
+                  src={"/hiking/step32.jpg"}
                   width={500}
                   height={335}
                   alt="imoriyamaImages"
