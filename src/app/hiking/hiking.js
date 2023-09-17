@@ -95,7 +95,7 @@ export default function HikingComponent() {
             <div className={styles.stepsItemContainer}>
               <div className={styles.stepsItem}>
                 <Image
-                  src={"/hiking/step1.jpg"}
+                  src={"/hiking/step12.jpg"}
                   width={500}
                   height={200}
                   alt="imoriyamaImages"
