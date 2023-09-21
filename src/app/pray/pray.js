@@ -73,7 +73,7 @@ export default function PrayComponent() {
               <p>初 穂 料</p>
             </div>
             <div className={styles.itemBodyRight}>
-              <p>午前９時半から午後４時</p>
+              <p>午前9時から午後4時30分</p>
               {/* <p>午前９時 - 午後４時半</p> */}
               <p>社務所</p>
               <p>
