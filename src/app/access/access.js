@@ -74,7 +74,7 @@ export default async function AccessComponent() {
 
           <section className={styles.hire}>
             <div className={styles.title}>
-              <h2>お車(自動二輪車)でお越しの方</h2>
+              <h2>お車でお越しの方</h2>
             </div>
             {/* <Image src={"/news/newsImage1.jpg"}  width={500} height={700}
                 alt="shonankoInstituition"
@@ -92,7 +92,10 @@ export default async function AccessComponent() {
               <br />
               阪神高速13号東大阪線　水走 出口より約25分（7.5㎞）
             </p>
-            <div>
+
+            <h2 className={styles.title2}>駐車場へのご案内</h2>
+
+            <div className={styles.contents2}>
               <Image
                 src={"/access/accessImage1.jpg"}
                 width={500}
@@ -102,7 +105,7 @@ export default async function AccessComponent() {
               />
               <p>右側の坂道をお上りください。</p>
             </div>
-            <div>
+            <div className={styles.contents2}>
               <Image
                 src={"/access/accessImage2.jpg"}
                 width={500}
@@ -112,7 +115,7 @@ export default async function AccessComponent() {
               />
               <p>突き当たりを右へ</p>
             </div>
-            <div>
+            <div className={styles.contents2}>
               <Image
                 src={"/access/accessImage3.jpg"}
                 width={500}
@@ -126,7 +129,7 @@ export default async function AccessComponent() {
                 対向車には十分にお気をつけ頂きカーブを大きく回って頂きますと比較的スムーズにお上り頂きます。
               </p>
             </div>
-            <div>
+            <div className={styles.contents2}>
               <Image
                 src={"/access/accessImage4.jpg"}
                 width={500}
@@ -136,7 +139,7 @@ export default async function AccessComponent() {
               />
               <p>石垣手前を左折頂くとその先が駐車場です。</p>
             </div>
-            <div>
+            <div className={styles.contents2}>
               <Image
                 src={"/access/accessImage5.jpg"}
                 width={500}
@@ -144,7 +147,7 @@ export default async function AccessComponent() {
                 alt="shijonawateAccess"
                 className={styles.hireImage}
               />
-              <p>自転車等の軽車両は鳥居脇へ停めて頂けます。</p>
+              <p>二輪車等は鳥居脇にも駐輪頂けます。</p>
             </div>
           </section>
 
