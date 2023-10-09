@@ -24,7 +24,10 @@ export default function Component() {
             height="120"
             src="https://rive.app/s/hXFbUXt7cUu1uzFVPps4Mw/embed"
             className={styles.symbol}></iframe>
+            <div className={styles.logonames}>
+              <p>〜古代馬飼い癒しの里〜</p>
           <h1>四條畷神社</h1>
+          </div>
         </div>
       </div>
 

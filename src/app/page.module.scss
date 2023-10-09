@@ -31,6 +31,16 @@
     opacity: 0;
     animation: item 5s ease-in 0.8s;
   }
+  p {
+    font-size: 0.9rem;
+  }
+}
+.logonames {
+  margin: 0 auto;
+  writing-mode: vertical-rl;
+  animation: item 5s ease-in 0.8s;
+  opacity: 0;
+
 }
 .symbol {
   opacity: 0;
@@ -119,6 +129,9 @@
     h1 {
       margin: 0 auto;
       font-size: 1.2rem;
+    }
+    p {
+      font-size: 0.7rem;
     }
   }
   .symbol {
