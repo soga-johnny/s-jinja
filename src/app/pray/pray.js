@@ -97,7 +97,7 @@ export default function PrayComponent() {
             </div>
           </div>
           <Image
-            src={"/pray/prayImage1.jpg"}
+            src={"/pray/prayImage2024.png"}
             width={600}
             height={1030}
             alt="shonankoInstituition"
