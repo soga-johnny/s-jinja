@@ -56,7 +56,8 @@ export default function EventsComponent() {
                 <div className={styles.itemBody}>
                   <div className={styles.itemBodyLeft}>
                     <p>１日</p>
-                    <p>３日</p>
+                    <p>第一土曜</p>
+                    <p>第一日曜</p>
                     <p>１１日</p>
                     <p>　</p>
                     <p>１２日</p>
@@ -67,6 +68,7 @@ export default function EventsComponent() {
                   </div>
                   <div className={styles.itemBodyRight}>
                     <p>月例祭</p>
+                    <p>厄除大祭</p>
                     <p>厄除大祭</p>
                     <p>紀元祭並に</p>
                     <p>例大祭前日祭</p>
