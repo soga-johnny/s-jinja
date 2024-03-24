@@ -24,7 +24,7 @@ export default function MapComponent() {
               exit={{ opacity: 0 }}
               transition={{ delay: 0.7, duration: 1, ease: "easeInOut" }}>
               <Image
-                src="/maps/map.png"
+                src="/maps/map0324.png"
                 alt="map"
                 width={409}
                 height={650}

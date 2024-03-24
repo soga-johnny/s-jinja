@@ -272,6 +272,7 @@ export default function EventsComponent() {
                     <p>１日</p>
                     <p>３日</p>
                     <p>１５日</p>
+                    <p>　</p>
                     <p>２３日</p>
                     <p>２５日</p>
                   </div>
@@ -279,6 +280,7 @@ export default function EventsComponent() {
                     <p>月例祭</p>
                     <p>明治祭</p>
                     <p>月次祭</p>
+                    <p>馬の日</p>
                     <p>新嘗祭</p>
                     <p>楠天神社月例祭</p>
                   </div>
