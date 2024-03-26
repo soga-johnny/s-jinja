@@ -280,7 +280,7 @@ export default function EventsComponent() {
                     <p>月例祭</p>
                     <p>明治祭</p>
                     <p>月次祭</p>
-                    <p>馬の日</p>
+                    <p>七五三　ウマの日</p>
                     <p>新嘗祭</p>
                     <p>楠天神社月例祭</p>
                   </div>
